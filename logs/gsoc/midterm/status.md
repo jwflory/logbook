@@ -17,13 +17,13 @@ Status of jflory7's GSoC Project
 
 ### Concerns over deliverables
 
-* Does PHP / PHP-FPM need to be installed and configured in Fedora Infrastructure? Does not seem to be existing playbooks for this purpose.
+* Does PHP / PHP-FPM need to be installed and configured in Fedora Infrastructure? Cannot find existing playbooks for this purpose.
 * Working within the `ansible` repository for Infrastructure, and copying my changes to individual Pagure repo. Having concerns over integrating playbooks into Infrastructure (e.g. taking advantage of existing roles / tasks). Don't want to step on toes of other areas of project.
 * Need to understand if there is desire to spin up WordPress sites frequently for a multi-site network (i.e. on demand) or if the desire is more for a handful of potential applications (like CommBlog and Magazine only).
 * Documentation scope
  * For writing the SOP, unsure of the range of activities / information that needs to be covered
  * For installing a WordPress site only, or does it need to cover information like where the sites are hosted, how to manage them, etc.?
- * Anything besides "work" that needs to be done before running the playbook?
+ * Anything else besides any "work" that needs to be done before running the playbook?
 
 ## What is planned
 
@@ -41,4 +41,4 @@ Status of jflory7's GSoC Project
 * Time management problems
  * I've realized I'm overextending in other areas in the Project which is taking away time for me to focus on my project proposal
  * Need to readdress priorities and pull back from other areas to focus on GSoC proposal
-* 
+* Feedback from mentor?
