@@ -6,3 +6,75 @@ This notepad will contain any of my personal notes or observations about working
 
 ## Background
 
+...
+
+
+## Prerequisites
+
+Needed to get a WordPress installation up and running:
+* httpd / nginx
+* php
+* php-mysql
+* mariadb-server
+
+_Other notes_
+* Start, enable httpd + mariadb-server
+* Using httpd over nginx because that's what Fedora uses
+
+
+## Beginning install
+
+* Take backups for existing application
+* All plugins recommended to be disabled
+
+### `wp-config.php`
+* lineinfile / template:
+ * define('DB_NAME', 'name');
+ * define('DB_USER', 'user');
+ * define('DB_PASSWORD', 'pass');
+ * define('DB_HOST', 'localhost');
+ * define( 'WP_ALLOW_MULTISITE', true );
+
+
+## Installing network
+
+* Adding new sites is completely manual
+ * Have to do it from WP interface??
+
+
+### `wp-config.php`
+```
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+define('DOMAIN_CURRENT_SITE', 'b1.stg.derezzed.justinwflory.com');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+```
+
+### `.htaccess`
+```
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+
+# add a trailing slash to /wp-admin
+RewriteRule ^wp-admin$ wp-admin/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^(wp-(content|admin|includes).*) $1 [L]
+RewriteRule ^(.*\.php)$ $1 [L]
+RewriteRule . index.php [L]
+
+```
+
+
+## Conclusionary notes
+
+* Multisite networ feature requires using the *SAME* domain across all blogs, e.g. `fedoraproject.org`.
+* Would be easy to set up blogs for `*.fedoraproject.org`
+ * `fedoramagazine.org` would present difficulties
+ * Not possible to do something like `magazine.fedoraproject.org` and use DNS for fedoramagazine.org? Not sure, this is probably still WordPress specific
+* _jflory7's judgment_: It will be better to focus on refining the existing playbook for a per-WordPress installation setup (seems like Magazine and Community Blog will need to remain separate because of the different domains - this seems to be the case regardless of whether the sub-domain or directory method is chosen).
