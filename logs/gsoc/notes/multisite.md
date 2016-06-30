@@ -6,7 +6,7 @@ This notepad will contain any of my personal notes or observations about working
 
 ## Background
 
-...
+A multisite / network WordPress installation is a series of WordPress sites "chained" together. They all share a "common" base and unique layers on top. This means they share the same core updates to WordPress and plugins, but have their own unique theming and posts separate from each other.
 
 
 ## Prerequisites
