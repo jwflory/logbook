@@ -70,6 +70,18 @@ RewriteRule . index.php [L]
 
 ```
 
+## Using _WordPress MU Domain Mapping_ plugin
+
+This plugin allows a user to map a WordPress site to another domain. Hypothetically, using this plugin, you could have the Fedora Magazine be magazine.fedoraproject.org, but map the domain to fedoramagazine.org. I tried setting this up in my test installation, and noticed a few things.
+
+* Plugin last officially updated over two years ago
+* Last commit to project repository was 14 months ago
+* Existing documentation / [guide](http://ottopress.com/2010/wordpress-3-0-multisite-domain-mapping-tutorial/) for using and installing the plugin was written for either an older version of WordPress or older version of plugin
+
+After messing around with it in my test installation, I had issues getting the multi-domain feature to work. Mapping the domains did not appear to have an immediate effect on my installation, and seems like it would have required me to still use my root domain as the base WordPress installation so to first add another site on the same domain (e.g. requiring WordPress to be installed on fedoraproject.org first).
+
+While this plugin would likely accomplish the multi-domain feature as desired, the complications with installing it and concerns over its long-term stability are uncertain. For the time being, it would probably be best to move over this plugin.
+
 
 ## Conclusionary notes
 
