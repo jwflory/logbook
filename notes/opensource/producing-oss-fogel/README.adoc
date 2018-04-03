@@ -1,0 +1,32 @@
+= Carl Fogel - Producing Open Source Software notes
+
+== Chapter 1: Introduction
+
+* What persuades people to stick around to produce something useful?
+** "_People should feel that their connection to a project, and influence over it, is directly
+proportional to their contributions._"
+
+== Chapter 2: Getting started
+
+* *Terminology clarification*:
+** _User_: Uses project as part of personal / professional work
+** _Developer_: Contributes bugfixes and enhancements back upstream to project
+* Need to acquire:
+** Users
+** Developers
+* Appearances matter
+** Acknowledging importance of first impression
+** Detecting investment of care
+** Impression created carries over to rest of project by association
+* *SCORING*: Obvious where a link goes before clicking on it
+** Developer vs. user documentation
+* Presence of certain stand offerings reassures users (to use project) and developers (to contribute)
+** Send message: "_Your time will not be wasted if you get involved_"
+* Common for developers to be users, but not always
+** Especially for large projects created to meet enterprise-scale needs
+** Developers may not be direct users but usually involved with an internal team that uses the software
+
+=== Starting From What You Have
+
+* Transform private vision to public one
+** Organizing / documenting things everyone involved already knows
