@@ -30,3 +30,40 @@ proportional to their contributions._"
 
 * Transform private vision to public one
 ** Organizing / documenting things everyone involved already knows
+* Minimum activation energy to on-board contributors
+* *SCORING*: Choose a good name
+** A good name:
+*** Gives an idea of what project does
+*** Easy to remember (non-native speakers)
+*** Not a duplicate / does not infringe trademark
+*** Available as .com/.net/.org TLDs
+*** Available on micro-blogging sites (e.g. Twitter)
+* *SCORING*: Clearly state project is open source
+* *SCORING*: Offer features / requirements list
+** Something to give someone asking for quick summary of software
+* *SCORING*: Development status
+** Reflect reality
+* *SCORING*: Downloads / ease of building
+** Many projects don't standardize install procedures until late
+** "We'll sort it out when the code is closer to being ready"
+** This takes code longer to get ready
+** Discourages developers who may otherwise have contributed, if they could build / test it
+** Project will never know they are losing developers
+*** Who will ever know except the person themselves?
+** Boring work with high payoff should _always_ be done early
+* *SCORING*: Unique version number ([https://semver.org/]semver.org)
+* *SCORING*: Public and active bug tracker
+** More bugs in database, the _better_ the project looks, because:
+*** Absolute number of actual software defects present
+*** Number of people using software
+*** Convenience with which those people report new bugs
+** Any software of sufficient size and complexity has arbitrary number of bugs to discover
+*** How well does project record and prioritize them?
+** Empty is scary
+** New project has less, but key part is a _healthy rate_ of filings
+** http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/[Bugs are good news]
+* *SCORING*: Communications channels present
+** Way to reach the developers
+** Like a chat room
+* *SCORING*: Developer / contributing guidelines
+
