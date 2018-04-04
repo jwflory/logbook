@@ -1,7 +1,28 @@
 = Carl Fogel - Producing Open Source Software notes
 
+https://producingoss.com/[Source material]
+
+== Chapter 0: Preface
+
+* "Competence at cooperation" as highly-valued skill
+* Free software: Many models to compare, few to equate
+** Business, non-profit / NGO, government, etc.
+* FOSS project started, not run
+** Working together == tangible benefits to software
+
 == Chapter 1: Introduction
 
+* Unrealistic expectations
+** Open sourcing a troubled project does not cure ills
+** Introduces new complexities; can cost more than in-house if approach is incorrect
+* Early days of Mozilla and challenges (pg. 1)
+** "Open source pixie dust"
+* Categories of success / fail:
+** Presentation / packaging
+** Project management
+** Cultural navigation (default behaviors in FOSS)
+* Cross-pollination of ideas: Like going to a conference without actually traveling
+* Effort to FOSS correctly most noticed in beginning
 * What persuades people to stick around to produce something useful?
 ** "_People should feel that their connection to a project, and influence over it, is directly
 proportional to their contributions._"
