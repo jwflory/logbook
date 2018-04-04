@@ -60,6 +60,8 @@ proportional to their contributions._"
 *** Available as .com/.net/.org TLDs
 *** Available on micro-blogging sites (e.g. Twitter)
 * *SCORING*: Clearly state project is open source
+** Make license choice obvious
+** Make it obvious, and include it with source code
 * *SCORING*: Offer features / requirements list
 ** Something to give someone asking for quick summary of software
 * *SCORING*: Development status
@@ -72,7 +74,7 @@ proportional to their contributions._"
 ** Project will never know they are losing developers
 *** Who will ever know except the person themselves?
 ** Boring work with high payoff should _always_ be done early
-* *SCORING*: Unique version number ([https://semver.org/]semver.org)
+* *SCORING*: Unique version number (https://semver.org/[semver.org])
 * *SCORING*: Public and active bug tracker
 ** More bugs in database, the _better_ the project looks, because:
 *** Absolute number of actual software defects present
@@ -87,4 +89,75 @@ proportional to their contributions._"
 ** Way to reach the developers
 ** Like a chat room
 * *SCORING*: Developer / contributing guidelines
+** More social than technical
+** Where to interact with developers
+** Insturctions to report bugs and submit patches
+** Indication of how development is done and how decisions are made
+* *SCORING*: Documentation present
+** Need something for people to read, if crude and incomplete
+** Documentation is never really finished; sometimes why it is delayed
+** Usefulness of documentation inverse for those who write it from those who read it
+*** Cover the basics: Set up software, overview of how it works, guides for common tasks
+** Limit scope of documentation in advance
+*** Avoids it feeling too open-ended
+** Recommended criteria:
+*** Establish pre-required technical expertise
+*** Walk through initial set up of software clearly and thoroughly (_most critical to avoid early abandonment of project_)
+*** Tutorial-style example of common task
+*** Label areas where documentation is known to be incomplete (_reassuring_)
+**** Does not promise deadline, but also treated as open call for help
+** Identify project shortcomings, it is not defeat
+*** Give realistic vision for state of project
+*** Better for someone to be psychologically prepared for reality than stumbling in dark
+** FAQs are valuable investments if maintained
+** *Visual assets*: Screenshots, video to introduce project
+*** Demo sites also work
+*** Cater to instant gratification (single screenshot / video sometimes more valuable than paragraphs of descriptive text)
+*** Image-based evidence of functionality
+*** Video tips: Under four minutes, clearly state length
+* *SCORING*: Availability of documentation
+** Available online and in packaged version of software
+* *SCORING*: Developer documentation
+** Different from guidelines; this is technical, not social
+** How to get along with the code itself
+** Force that drives people to learn codebase is it does something useful for them
+*** If useful, they take the time to figure things out
+*** If not, nothing will get or keep them
+** *Prioritze users before developers*, if you must
+*** User docs are effectively developer docs
 
+=== Setting the Tone
+
+* Written policies do not define project's culture so much as describe it
+* People show up expecting and looking for social norms
+** Behaviors to mark them as part of the group ("fitting in")
+** Behaviors become self-perpetuating
+* *SCORING*: Avoid private discussions
+** Fear of settling difficult questions, so discussed privately with inner circle
+** Disasvantages to public:
+*** Delay in email conversation
+*** Sufficient time for consensus
+*** Newcomers who think they understand but actually don't (could be star contributors later, or stay forever naïve)
+*** Concern over different subsets of problems
+** Great temptation to make decisions behind closed doors: *don't do it*
+** "Contributor repellant"
+** No serious contributors sticks around in project where critical decisions made privately
+** Benefits of public conversation:
+*** Train and educate new developers
+*** Train you in explaining technical issues to people less familiar with project
+*** Available in public archives, enabling future discussions to retrace
+*** Possibility of real contribution to conversation (varying likelihood, but still realistically plausible)
+** *If there is no reason for discussion to be private, keep it public*
+** Requires active action: nudge private conversations to public
+* *SCORING*: Don't tolerate rudeness
+** Zero-tolerance does not imply technical enforcement
+*** Never letting bad behavior slide by unnoticed
+*** _Example_: In ad hominem attack mixed with technical comment, address ad hominem attack as separate issue from technical content
+*** Short distance from calling a proposal stupid from a person being stupid
+** _Pg. 28_: Stilted responses that call out bad behavior but don't demand apology or acknowledgement from offending party
+** Never make meta-discussion the main topic
+*** Keep it as an aside
+*** "We don't do things that way around here"
+** Good behavior as "in-group" behaviors
+* *SCORING*: Have a Code of Conduct (that is enforcable and enforced)
+** Reminds participants 
