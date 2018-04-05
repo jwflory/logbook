@@ -2,6 +2,7 @@
 
 https://producingoss.com/[Source material]
 
+
 == Chapter 0: Preface
 
 * "Competence at cooperation" as highly-valued skill
@@ -9,6 +10,7 @@ https://producingoss.com/[Source material]
 ** Business, non-profit / NGO, government, etc.
 * FOSS project started, not run
 ** Working together == tangible benefits to software
+
 
 == Chapter 1: Introduction
 
@@ -160,4 +162,38 @@ proportional to their contributions._"
 *** "We don't do things that way around here"
 ** Good behavior as "in-group" behaviors
 * *SCORING*: Have a Code of Conduct (that is enforcable and enforced)
-** Reminds participants 
+** Reminds participants that a respectful and welcoming environment is everyone's responsibility
+* *SCORING*: Practicing code review
+** Reviewing commits as they come in, looking for bugs, improvements, etc.
+** _Purpose_:
+*** Maintain software quality
+*** Validates meaningfulness of contributions (i.e. the work done actually matters)
+** People do their best work when they know others take time to evaluate it
+** Reviews should be public
+* "In the open" means these things are public from Day One:
+** Code repository
+** Bug tracker
+** Design documents
+** User documentation
+** Wiki
+** Developer discussion forums
+** Code and documentation under open source license
+* "In the open" does not have to mean:
+** Allow strangers to check code into repository
+** Allow anyone to file bug reports
+** Reading and responding to every bug repot filed
+** Responding to every question people ask in the forums
+** Reviewing every patch or suggestion posted
+* *You open source your code, not your time*
+
+
+== Chapter 4: Social and Political Infrastructure
+
+=== Forkability
+
+
+== Chapter 5: Participating as a Business, Non-Profit, or Government Agency
+
+=== Appear as Many, Not as One
+
+=== Be Open About Your Motivations
