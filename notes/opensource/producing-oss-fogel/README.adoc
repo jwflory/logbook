@@ -208,4 +208,13 @@ proportional to their contributions._"
 
 === Appear as Many, Not as One
 
+* Developers should publicly appear as individual participants (instead of monolithic "corporation")
+** Open source projects only equipped to deal with individuals
+** Individual contributors have discussions, submit patches, acquire creditability, vote, etc. – companies cannot
+* Behaving in decentralized manner avoids stimulating opposition
+** Encourage reviewing other's code often
+** Discourage voting as a bloc (others may feel need for organized effort to keep them in check)
+
 === Be Open About Your Motivations
+
+* Be open about organization goals without compromosing business secrets
