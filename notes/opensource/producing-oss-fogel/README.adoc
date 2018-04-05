@@ -217,4 +217,36 @@ proportional to their contributions._"
 
 === Be Open About Your Motivations
 
-* Be open about organization goals without compromosing business secrets
+* Be open about organization goals without compromising business secrets
+** If customers / stakeholders strongly desire a certain feature, just say so
+** Can ask customer / stakeholders if they can be used as unnamed examples
+** More the public community knows _why_ you want what you want, increases comfort with what you are proposing
+* By publicly advocating feature / bug / goal, your cards are already on table
+** Next question: Will you succeed in guiding community to share your goal?
+** If you just want it with no concrete examples of why, argument is weak and suspicion is created
+** If you give real-world scenarios to demonstrate importance, lends meritability to debate
+* Debates on new features / directions are tiresome
+** Absence of real-world data causes continual drift from actual user experience
+** If no data, end result determined by most articulate, or most persistent, or most senior
+* As organization with customer / stakeholder data available, *you can provide the real-world data*
+** If info supports desires, no shame in that
+** Most developers individually do not have broad experience with how software they write is used
+** Providing credible data about significant amount of users gives development community "oxygen"
+*** Present it right and it will be warmly welcomed
+* But seriously, *present it right*
+** Focus initial discussion on problems than one specific solution
+** Describe in detail problems customers / stakeholders have
+** When speculation on effectiveness of various solutions arises, continue to draw on data to support or refute
+** You may have one solution in mind, but *do not single it out for special consideration*
+** Not deception; "honest broker" behavior
+** True goal is to solve a problem, a solution is a means to end
+** If your solution _is_ superior, then they will get behind it in their own free will without you aggressively peddling it
+* Earlier you get everyone thinking in the same terms as you, the smaller the distancing effect is
+** Unknown always more destabilizing than the known
+** When people understand why you want what you want, they feel comfortable talking even when they disagree
+** If they can't figure out why, they may assume the worst
+* Cannot publicize everything
+** All organizations have secrets; people won't expect you to share them
+** If you must advocate certain course but cannot reveal, offer the best arguments you can with that handicap
+** Accept you may lose influence you want in the discussion
+** This is a compromise you make to *have a development community not on a payroll*
