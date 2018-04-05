@@ -191,6 +191,18 @@ proportional to their contributions._"
 
 === Forkability
 
+* Consider the https://en.wikipedia.org/wiki/Bus_factor[bus factor]
+* *Forkability*: Ability for anyone to take copy of source and use it to start a competing project
+** Binds developers together
+** Encourages desire to compromise
+* Forks are why there is no "true" dictatorship
+** Projects not organized as democracies are still practically democracies
+** Replicability implies forkability
+** Forkability implies consensus
+* Some projects may defer to one leader, but it is a decision they willingly choose
+* Forkability does not put upper limit on how much power is exerted in a project
+** Every decision made should not come down last-resort question of fork possibility
+
 
 == Chapter 5: Participating as a Business, Non-Profit, or Government Agency
 
