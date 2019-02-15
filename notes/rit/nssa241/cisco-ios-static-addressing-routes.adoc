@@ -1,0 +1,46 @@
+= Configuring static IP addresses and routes in Cisco IOS
+
+Notes on how to configure a few Cisco 2811 switches with the following:
+
+* IP addresses on specific interfaces
+* Routes for networks not directly connected
+
+These notes come from Lab 2 (Tunneling) for the NSSA-241 Virtualization course at the Rochester Institute of Technology in spring 2019.
+
+
+== Assign IP addresses to interface
+
+Assume a diagram like the one found on page 1 of Lab 2 handout (in my Dropbox).
+All switches must be assigned a static IP address.
+You use these to configure routes later.
+The following Cisco IOS commands are used to configure the switches:
+
+.Assign static IP address to an interface
+----
+>enable
+#configure terminal
+#interface fa0/X // <1>
+#ip address A.B.C.D A.B.C.D // <2>
+#end
+----
+<1> Interface of choice
+<2> IP address followed by subnet mask
+
+
+== Create static routes on switches
+
+All switches need static routes created.
+These are needed so switches know where to send traffic for a network they are not connected to.
+For example, R1 needs static routes for the 3.0.0.0 and 4.0.0.0 networks.
+R2 needs static routes for the 1.0.0.0 and 4.0.0.0 networks.
+R4 needs static routes for the 1.0.0.0 and 2.0.0.0 networks.
+The following Cisco IOS commands are used to configure the switches:
+
+.Create static routes on a Cisco switch
+----
+>enable
+#configure terminal
+#ip route A.B.C.D A.B.C.D fa0/X A.B.C.D // <1>
+#end
+----
+<1> First address is network prefix (e.g. 1.0.0.0). Second address is subnet mask prefix. Use interface of choice. Last address is destination address for traffic intended for this network prefix.
