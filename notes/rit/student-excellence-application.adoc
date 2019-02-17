@@ -1,0 +1,40 @@
+= RIT Excellence in Student Life Award
+
+== Engagement Activity #1
+
+* *Name*: RIT Linux Users Group (RITlug)
+* *Start date*: Fri, 25 Sep 2015
+* *End date*: Fri, 20 Dec 2019
+* *Advisor*: Stephen Jacobs
+* *Summary regarding activity*:
+
+I am a member of the RIT Linux Users Group since September 2015, where I served as president (fall 2016 to spring 2018), eboard member (fall 2018), and lead for misc. club projects.
+As a board member, I assisted with project planning within the club, doubling our membership body, and establishing professional relationships with companies in the industry.
+As president, I supported different club members starting new projects.
+During that time, we launched our most successful project, TigerOS.
+TigerOS is a customized Linux operating system for RIT students, faculty, and staff.
+Additionally, our membership body grew across my time at RIT.
+As a member in 2015, our meeting attendance was around 3-6 members.
+In 2019, meeting attendance is around 10-20 members weekly.
+With the help of other board members, we better engaged with members to provide opportunities to explore their passions and interests through structured project work.
+Also, I connected RITlug with Mozilla to become a founding member of the Open Source Student Network (https://opensource.mozilla.community/find-club/rit-linux-users-group/).
+There, we collaborate and work together with other student organizations around the country to teach and promote free and open source software in our campus communities.
+When I entered a leadership position within RITlug, my goal was to make a more sustainable future for RITlug and to start widening the community.
+As I near the end of my degree, I believe I achieved my goal.
+
+
+== Engagement Activity #2
+
+* *Name*: Free and Open Source Software @ RIT MAGIC Center
+* *Start date*: Mon, 17 Aug 2015
+* *End date*: Fri, 20 Dec 2019
+* *Advisor*: Stephen Jacobs
+* *Summary regarding activity*:
+
+I am a student captain of the Free and Open Source Software initiative under the RIT MAGIC Center (https://fossrit.github.io/).
+In academics, I was a teaching assistant for the Humanitarian Free and Open Source Software Development course.
+More widely, I represent the FOSS initiative as a speaker at conferences around the world.
+Most recently in October 2018, I attended a summit of open source technology leaders, where I represented RIT on the role of students and academia in the free software movement.
+These conversations included Open Source Program Officers from Google, Microsoft, Mozilla, Red Hat, the Ford Foundation, and others.
+Additionally, for the last few years, I support FOSS@MAGIC with planning, coordination, and execution of Rochester Maker Faire and Imagine RIT booth exhibits.
+This includes interfacing with students, faculty, and advisors to plan ahead for resources required and develop a brand identity for our presence.
