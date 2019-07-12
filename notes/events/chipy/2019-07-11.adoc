@@ -1,0 +1,176 @@
+= 2019-07-11 ChiPy meeting
+
+https://www.chipy.org/[*chipy.org*]
+
+
+== Lowering the Stakes of Failure with Pre-mortems and Post-mortems
+
+Elizabeth Sander
+
+=== Abstract
+
+Failure can be scary.
+There are real costs to a company and its users when software crashes, models are inaccurate, or when systems go down.
+The emotional stakes feel high-- no one wants to be responsible for a failure.
+We can lower the stakes by creating spaces to learn from failures, and minimize their impact.
+This talk introduces two ways to address failure: blameless post-mortems, to learn from an incident; and pre-mortems, to identify modes of failure upfront.
+
+=== Notes
+
+==== Intro
+
+* Failure takes many forms; what it looks like depends on you
+* Failure is scary because nobody wants to feel responsible for causing problems
+** Mistakes happen within a context
+*** Team: Time pressures, incentives, norms, training, expertise, etc.)
+*** Process: Testing, docs, time/issue tracking, code/method reviews
+* Individuals make mistakes; we need to expect that and prepare correctly
+** Blameless post-mortems one method to do this
+
+==== Post-mortems
+
+* Identify root cause, come up with action items to follow up on
+* _Blameless_: Create a place where people can feel comfortable to bring up issues without finger-pointing
+* Accountability but not responsibility on any one person
+** If one person is directly responsible?
+   Not true, most of the time.
+** Manager addresses poor performance, not for a post-mortem
+* Before post-mortem:
+** Invite people directly involved (inc. a facilitator, like a manager)
+** For major incidents: Affected stakeholders (e.g. clients)
+** Prep with basic details:
+*** Incident period, status, summary, impact (from perspective of users), trigger, detection, resolution, action items
+* During post-mortem:
+** Let facilitator drive
+** Review a timeline of what happened / when (where did things start going wrong?)
+** Agree on trigger, impact, root causes
+*** Trigger: Immediate cause
+*** Impact: What was affected
+** What went well?
+*** What parts of process should be kept/replicated?
+** What went badly?
+*** Identify attention areas
+** Where did we get lucky?
+*** Where things could have gone bad but didn't - helpful to evaluate during the post-mortem
+** Agree on action items and owners
+*** Example: Updates to a release checklist
+** Lessons learned: Summary of key takeaways
+* What next?
+** Follow up on action items
+** Share post-mortem document more widely with company or even externally
+*** Keep post-mortems together for future reference (organization)
+
+==== Pre-mortem
+
+* Evaluate areas of failure before they happen
+* Pre-requirements:
+** Facilitator (ideally neutral party)
+** Stakeholders across departments / teams / groups
+* Structure:
+** *Brainstorm*: Our project has failed - what happened?
+** *Organize*: Identify common groupings, patterns across potential areas of failure
+** *Estimate importance and discuss*: Assign risk categories, rank by probability and impact, multiply results
+*** "What could we have done to avoid or mitigate the failure?"
+** *After the meeting*:
+*** Send out notes
+*** Check in on risks during project lifecycle
+*** Integrate into project management methodlogy (e.g. agile)
+* Why bother?
+** People are nervous to bring up a topic because of emotional responsibility
+** But bringing up these things is good and creating a culture around this allows everyone to make their concerns known
+** Helps engineers keep these issues in mind while developing
+** Also helpful to bring in technical and non-technical folks!
+** Helps get everyone on board with the project (i.e. motivation)
+
+==== Summary
+
+* We can only learn from failure by bringing it into the open.
+* But to do that, we need to lower the emotional stakes, both of failing and talking about failure.
+* Pre-mortems and post-mortems are tools for this.
+* Avoid the blame!
+
+==== Q&A
+
+* How long should a post-mortem take?
+** Depends; but about 1 hour is good place to start (with prep work done in advance)
+* Challenges during pre-mortem?
+** How to allocate time (e.g. enough time in brainstorming to come up with ideas, but not letting it dominate the full time)
+** Perhaps drive towards voting method
+** Possibly split into two meetings
+** Time management is hard
+** Integrate pre-mortem notes into retrospective
+
+=== Resources
+
+* http://www.lizsander.com/[Slides will be available here]
+* http://landing.google.com/sre/sre-book/chapters/postmortem-culture/[Postmortem Culture: Learning from Failure]
+
+
+== Web Scraping for Fun and Profit (Profit not Included)
+
+Matt Inwood
+
+=== Abstract
+
+Not all data is easily accessible.
+Taking info from a website that requires authentication, interaction, or even just to load a fancy script.
+This talk will discuss using Selenium to level up your web scraping skills, with examples and suggested practices.
+
+=== Notes
+
+* Web Driver Automation
+** Testing
+** Data mining / web scraping
+** AI interactions
+** Lots more of ideas limited to your imagination
+* What you need:
+** Python
+** Selenium
+** Browser
+** Web driver:
+*** Firefox: geckodriver
+*** Chrime: ChromeDriver
+* Using https://www.nytimes.com/puzzles/set[NYTimes puzzle sets] as an example
+* Execution steps
+** Open browser with webdriver
+** Finding elements (`browser.find_elements_by_class_name()`)
+** Navigating the DOM
+** Getting info from elements
+*** `elem.text`
+*** `elem.get_attribute('attr_name')`
+*** `elem.find_element/s`
+
+=== Q&A
+
+* Running headless is challenging
+* BeautifulSoup vs. Selenium?
+** Needing to interact with the page or executing JavaScript: BeautifulSoup hasn't really figured this out yet
+
+=== Resources
+
+* https://github.com/mattinwood/Tutorials/blob/master/Web%20Scraping/Data%20Mining%20for%20Fun%20and%20Profit%20-%20ChiPy%20July%2011th.ipynb[Data Mining for Fun and Profit - ChiPy July 11th.ipynb]
+* https://selenium-python.readthedocs.io/[Selenium with Python]
+* https://www.matt-inwood.org/presentations[Slide deck from presentation]
+
+
+== Limit the Guesswork in Fantasy Baseball by Using Python for Data Analysis
+
+Nicholas Marey
+
+=== Abstract
+
+Daily fantasy sports has become a booming industry.
+One leader in the space is Fanduel who after raising $275 million in their series E funding, brought their valuation to over $1 billion.
+As the popularity of daily fantasy sports has taken off, critics have argued that success is the result of luck; yet the consistent success of a select group of players would suggest that success can be driven by skill.
+This talk, will go over how one could use Python to level the playing field.
+
+=== Notes
+
+* Baseball is useful for statistical analysis due to its series of 1x1 interactions (finite number of states)
+* Unfortunately I did not study enough statistics to grok most of this one and it is a lot of Jupyter / pictures
+* No slides :(
+
+== Miscellaneous
+
+* Microsoft SQL Server 2017+ supports machine learning
+** Basically embed Python into SQL tables - cool!
