@@ -1,0 +1,168 @@
+= 2019-07-24: ChiPy DevOps SIG meeting
+
+https://www.chipy.org/[*chipy.org*]
+
+
+== Debugging with pdb
+
+Kevin Nasto
+
+=== Abstract
+
+Did you know that Python comes built-in with a powerful debugging tool called PDB (Python DeBugger)?
+This lightning talk will go over how to set breakpoints, inspect data structures, and step through your code in real-time!
+
+=== Notes
+
+* pdb is a debugging tool for Python code
+
+==== Why pdb?
+
+* Built into all versions of Python
+* Use it anywhere, almost any library / framework
+* Execute code line-by-line
+* Execute any code with an interpreter
+
+==== Alternatives
+
+* `print()`, Jupyter Notebook, debugging in IDE
+
+==== How to use it?
+
+. Import
+. Set breakpoint
+. Run code
+
+[source,python]
+----
+import pdb
+
+pdb.set_trace()
+
+# next steps: pdb commands
+n  # next: execute next line of code
+s  # step
+c  # continue: execute code until next breakpoint
+----
+
+==== Live example
+
+[source,python]
+----
+import pdb
+
+def fib(num):
+    if num <= 1:
+        return num
+    else:
+        pdb.set_trace()
+        return fib(num - 1) + fib(num - 2)
+
+fib(3)
+----
+
+
+== Application Security for Python Programmers
+
+James Jeffryes
+
+=== Abstract
+
+Python is a growing choice for business applications processing sensitive user data and performing mission-critical tasks.
+That makes it vital for programmers to be aware of common security vulnerabilities that can undermine the Confidentiality, Integrity, and Accessibility of these Python applications.
+Fortunately, many of these risks can be managed with patterns for safe handling of user input as well as tools for dependency monitoring and static code analysis.
+
+=== Notes
+
+==== Outline
+
+. Broad overview of risk types
+. Common vulnerabilities, how to avoid
+. Tools/strategies to avoid vulns
+
+==== Overview of risk types
+
+* What is security? CIA Triad:
+** Confidentiality: system conceals private data
+** Integrity: system does only what it is designed to do
+** Availability: system remains accessible under attack
+* Imagine financial institutions (e.g. bank, Social Security Admin… Equifax)
+* Create a table to "grid out" your surface areas (e.g. database, application code, server, etc.)
+** Confidentiality: User info? Trade secrets? Private keys?
+** Integrity: Network access?
+** Accessibility: Cohosting?
+* Find the business problems you need to solve
+
+==== Common vulnerabilities, how to avoid
+
+* Check out https://www.owasp.org[OWASP] for database of common vulns
+
+===== Input injection
+
+* Consider SQL query to figure out a product ID; append an unexpected statement (e.g. `DROP table`)
+* Several ways for an attacker to inject arbitrary input, mostly limited to your imagination
+* _Never execute raw SQL from a user_
+* Instead: Use Object Relational Mapping library like SQLalchemy or parameterized SQL statements
+* `subprocess.call`: Never use `shell=True`, use argument lists instead
+* Always use `ast.literal_eval()` with user input strings
+
+===== Deserializing data
+
+* Possible to execute Python when an object loaded from YAML
+** Update `pyyaml` or use `safe_load()`
+* Python allows objects to define how to pickle themselves with `__reduce__`
+** Don't unpickle anything you did not create
+
+===== Memory saturation
+
+* Zip files can be filled with large amounts of nested data
+** _Stream zipped data into fixed-size buffer and bail out if you hit your limit_
+* XML allows for internal, compact references but expand to huge sizes
+** XML also allows referencing external links
+** _Use `defusedxml`_
+
+===== Cross-Site Scripting (XSS)
+
+* XSS hijacks site to serve malicious code to your users
+* Use caution with `<script>` tag in bare HTML
+** Use `html.escape()` or your framework's equivalent to clean user data from an API
+
+===== Do not trust dependencies
+
+* PyPI is great because you can install anything, it is terrible because you can install anything
+** Ask yourself:
+*** Is your interpreter up to date?
+*** Do you know if your dependencies are vulnerable?
+
+==== Tools and strategies to address security vulnerabilities
+
+===== Use static checking: code
+
+* *Bandit* is an open source tool to check for unsafe imports/calls in code
+** Easy to add in CI pipeline
+** Helps junior devs to be aware and keeps team honest
+
+===== Use static checking: dependencies
+
+* GitHub: automatic emails
+* PyUp: Supports more options, free for FOSS
+* Safety: Derivative work from PyUp
+
+===== Check your feature additions
+
+* The more features, the bigger the attack surface
+* More features, harder to predict how they interact
+* Harder to keep up to date
+
+===== Secure design early
+
+* Tempting to target shiny features first… but better to show incremental progress
+* Think about access control up front
+** Easier to add in as you go vs. adding later
+* Better to never show a feature than be forced to take it away later for security reason
+** Pretend: Data researchers who can run raw SQL and then you take it away because, duh!
+
+===== Logging
+
+* You need to know something is up ASAP for damage control
+* Use logging in your code, use monitoring infrastructure
