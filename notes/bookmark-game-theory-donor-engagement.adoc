@@ -1,0 +1,17 @@
+= Thought bookmark: Use of game theory as tool of encouragement for charitable donations
+
+[link=https://creativecommons.org/licenses/by-nc-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg[License: *CC BY-NC-SA 4.0*]
+
+* Role of game theory to incentivize better engagement and participation to charitable donations
+** Most popular use of microtransactions: Small mobile app games (?)
+** Example: Fedora Badges incentivizes community contributions through virtual badge system
+* Potentially two-way benefit to elicit financial gain in fundraising campaigns and also to build in a feedback loop to donors on their contributions at work
+** Patreon for charity?
+* Wagers: Dollar-backed tokens (i.e. small-sized donations) funded to different internal projects or areas of improvement
+** Receive virtual tokens in return if waged item fails, none back if waged item succeeds
+** Best structures of support:
+*** Donors: Informed on individual progress of donor contributions within organization; safeguard exists if initiative/project fails
+**** Failure/success criteria required
+*** Organizations: Stability via cash-in-cash-out principle of lending (guaranteeing received finals are final); incentivized to encourage more contributions via regular updates
+*** Service administrators: Creating partnership with organizations to succeed to ensure successful ventures; organization pushed towards customer success
