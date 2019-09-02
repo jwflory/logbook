@@ -1,0 +1,83 @@
+= https://opensource.com/article/19/8/guide-agile-project-management[A comprehensive guide to agile project management] (2019-08-13)
+
+Article summary from https://opensource.com/[Opensource.com].
+
+== Overview
+
+* 12 basic principles of agile
+* Focus on solving chunks of problems at a time (vs. planning start-to-finish)
+** Sometimes things change!
+
+== Principles
+
+=== Customer-first
+
+* Satisfy customer/stakeholder through early and continuous delivery
+* Solve problems for customer, not build features/tools because they are cool
+* Reduces time from project initiation to customer feedback
+** Corollary: Faster CI/CD environment, faster to share something with customer (e.g. staging instance)
+
+=== Only constant is change
+
+* Normally it is radical to change requirements later: not with agile
+* If end-goal is to serve customer, must be flexible to respond to customers' behaviors/needs
+* Flexibility first, following a carefully constructed plan second
+
+=== Deliver faster
+
+* Deploy changes faster (vs. calendar-based patches)
+* Smaller, more frequent releases allow for regular updates with minimal risk
+* Waiting for big releases creates unforeseen issues no matter how much it is tested
+
+=== Build cross-functional teams
+
+* Different teams work together throughout process: not in linear progression
+* Gets everyone to have some skin in the game
+* Harder to push errors or low-quality tech on others
+* Needs top-level engagement
+
+=== Encourage independent work
+
+* More flexibility to learn new skills while working on projects
+* Teams are typically self-directed: need a focused goal
+* "Build projects around individuals.
+  Give them the environment and support they need and trust them to get the job done."
+
+=== Meet in person
+
+* In-person meetings encouraged for conveying critical information
+* Non-remote: Closer interaction in physical areas
+* Remote: Simulate virtual meetings, use tools like Slack/Zoom, etc.
+
+=== Go live
+
+* Deploy working version of software as soon as possible
+* Critical frame of reference for evaluating priorities
+
+=== Sustainable development
+
+* Vital to make sustainable and scalable code
+* Think ahead of time about big picture
+* Remember to maintain work-life balance to avoid burnout
+
+=== Technical excellence
+
+* Every team member is responsible for success
+* Anyone involved can be a basic QA tester
+* Everyone is responsible for providing clear code/instructions through the process - not just at the end
+
+=== Simplify
+
+* "Maximize the amount of work not done"
+* Eliminate and automate as much as possible
+
+=== Let teams self-organize
+
+* Leave room for independence; don't be a helicopter manager
+* Let teams figure out what needs to be done and how to get it done
+
+=== Take time to reflect
+
+* Reflections at regular intervals
+* Introspect and evaluate efficiency from time to time
+* Helps you discover better ways of working and how to evolve
