@@ -1,0 +1,12 @@
+= Thought bookmark: MusicBrainz -> MediaBrainz
+
+[link=https://creativecommons.org/licenses/by-nc-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg[License: *CC BY-NC-SA 4.0*]
+
+* There is no library catalog of Internet podcasts, yet these are one of the most pervasive systems of sharing knowledge in 21st century media culture
+* MusicBrainz is an effective catalog of music media - defined only by common metadata schemes, not actual content type
+** i.e. MusicBrainz catalogs digital files in a common music codec format, but that definition could include more than only "music" files
+* Podcasts remain a media accessible to most modern app / web music player clients
+** What standards already exist for podcast metadata?
+** Data exists already in ListenBrainz – and will for anyone else submitting listens of podcasts in a client such as Google Play Music or Soundcloud
+* _Vision_: Enable the proliferation of free/open metadata for podcasts so they are documented, organizable, and searchable for potential downstream uses of these data
