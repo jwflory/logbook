@@ -1,0 +1,113 @@
+= When Computers Were Women, _Jennifer S. Light_ (1999)
+
+[link=https://creativecommons.org/licenses/by/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg[License: *CC BY 4.0*]
+
+== Introduction
+
+* Job of a programmer recently perceived as masculine work originated as feminized clerical labor
+* During 1940s wartime, women broke into several STEM occupations traditionally held by men
+** Unequal representation: difficulty of tasks as subprofessional, celebrated work for its femininity, rarely received credit for innovation/invention
+* Prewar labor patterns in scientific/clerical occupations influenced the way women were…
+** Assigned to jobs
+** What kinds of work they did
+** How contemporary media regarded (or failed to regard) this work
+* Previous accounts of computer history did not portray women as significant and argues for reappraisal
+
+=== Women in Wartime
+
+* New military/civilian women's organizations channeled women into a variety of jobs
+* WWII changed job demands: previously women with mathematics degrees taught primary/secondary school
+* *More women ≠ equality*
+** Sexual divisions of labor persisted during wartime
+** New technical positions did not extend up job ladder
+** View that women would be dismissed after war ended
+* _Segregation_: classified ads running under separate listings for female vs. male help wanted
+
+
+== Women's Ambiguous Entry into Computing
+
+* Women's role in developing ENIAC supercomputer: feminization of labor
+* Several conditions facilitated growth of "women's work":
+** Rise of big science research projects
+** Low budgets
+** Available pool of educated women
+** Lack of men
+** Women could act as intermediary
+** Somewhat enlightened employer in climate resistive to female employees entering traditionally male domains
+* Scientists described women not as individuals but often as a collective
+** e.g. By their lab leader ("Cecil's Beauty Chorus"), their machines ("scanner girls")
+** _ENIAC_: "[John] Holberton's group", "ENIAC girls"
+* Many women denied status symbols of scientists and engineers: publications, lectures, membership in professional societies
+* Mathematic calculations removed from engineer's job and transferred to computer's job
+** _Ballistics computing_: Men's work in WWI, feminized in WWII
+** Women hired as computers/clerks generally assisted men
+* "…not simply cases of women taking on men's tasks, but rather the *emergence of new job definitions* in light of the female workforce."
+** Civilian jobs for women portrayed as appropriately feminine, "domestic" work for the nation (disregarding fact that role was done by men previously)
+* Technology facilitated women's entry into paid labor
+** *Machines stimulated reorganization of work processes*, leading to creation of new occupations / culling of older ones
+*** _#bookmark_: Will robots take our jobs?
+** Entry greatest in occupations where women did not displace men
+* Idea of "feminized role" as persistent; going back was not an option
+* _1940s_: Programming, as skill of transferring computed information, already considered women's work!
+** Slightly higher status and higher pay than other kinds of clerical labor
+
+=== Female Computers and ENIAC Girls
+
+* Hiring of women to work as computers for weapons projectile calculations at places like the University of Pennsylvania Moore School of Electrical Engineering
+** High level of mathematical skill required (e.g. solving nonlinear differential equations in several variables)
+** Computing work designated as subprofessional
+* Open hostility to Women's Army Corps (WAC) volunteers in Philadelphia
+** Public press lauding smooth integration of WACs into university life
+** Reality through primary sources reveals their presence was an "interference" and "disturbance" to local life
+* Transfer of computing from human to machine led to shifting job definitions
+** "Computer" was a human being until approximately 1945
+** Former human computers became "operators"
+* Creation and gendering of "computer operator" offers insight into how sexual divisions of labor gather momentum
+* *ENIAC*: Distinction between hardware and software
+** Designing hardware was man's job
+** Programming was a woman's job
+** Software: A clerical task, did not match importance of constructing ENIAC and getting it to work
+** Women carried out orders from male engineers and army officers; these men received credit for invention
+* *ENIAC*: Women tasked with understanding the ENIAC from its blueprints and learning by doing (i.e. crawling around inside the frame)
+** "…we learned to diagnose troubles as well as, if not better than, the engineer." (Fritz)
+* _Nina Lerman_: "Gender plays a role in defining which activities can readily be labeled 'technological'."
+* Although women played key role in preparing 1946 ENIAC demonstrations (both for press and lab visitors), they are not listed in any official accounts of what took place during demonstrations
+
+=== Contemporary Accounts of ENIAC
+
+* Take a diff: War Department urging women into military and civil service and feeding media uplifting stories of womens' achievements during the war
+** Press releases somehow do not mention the women who helped make the machine run
+** Workforce division of labor: Lab leads receive sole and full credit for works
+*** _#bookmark_: Socialist systems of labor?
+** Media publicly hailed hardware designers as having "fathered" the machine; but no mention of women's contributions
+* 15 second solve time: Not including time required to set up ENIAC for calculations (work done by women)
+* Little to no representation of women in press coverage on ENIAC
+** ENIAC 1946 demonstration doubled as vanishing act for female participants (neatly timed with postwar propaganda for women to return to traditional female occupations)
+* FBI dropped many of the women hired as cryptographers during the war
+** 1946: National Bureau of Standards filled most vacancies on computing staff with male veterans
+* 1956 U.S. Department of Labor report reveals four findings on employment opportunities for women mathematicians and statisticians:
+** More women mathmaticians/statisticians needed with interesting jobs at bachelor's and graduate levels
+** Young women in high school should be encouraged to try STEM and prepare for those fields if they have qualifications
+** Young women with teaching skills and mathematical backgrounds should be encouraged to teach
+** Mature college women who majored in mathematics, possess teaching qualifications, and have time to work should prepare themselves with refresher courses to teach (anticipated shortage of mathematics teachers)
+
+
+== Conclusion
+
+* ENIAC story is a highlight of several issues in history/historiography of gender, technology, and labor
+* Variance between wartime recruiting literature and historical evaluation of women's actual opportunities is striking
+** No moving up the ladder, just adding more rungs at the bottom
+* _Matilda effect_: Individuals at top of professional hierarchies received repeated publicity and become part of historical records
+** Subordinates do not and quickly drop from historical memory
+* Conflict of actual work performed by women contrasted by how employers categorized this work
+** Challenges assumption that low-status occupations of women meant womens' work could not be innovative
+* Women's invisibility reflects deep-rooted ambivalences about roles of women professionals in labor force
+** Permeated power relationships in workplace and media portrayals of women's contributions
+** Corollary: https://www.theguardian.com/us-news/2019/jul/10/undocumented-women-farm-workers-texas-mexican[Undocumented, vulnerable, scared: the women who pick your food for $3 an hour]
+* Portrayals of women's postwar fate continue ambivalence in women's wartime work
+** Women seen as meeting a _temporary_ crisis
+** 1943 training to managers: "Women can be trained to do any job you've got—but remember 'a woman is not a man;' A woman is a substitute—like plastic instead of metal." <- WTF?
+* Revised history of ENIAC reflects unintentionally "male-centered terms" of history
+** *Results in distorted history of technological development leaving women's contributions invisible and promoted a diminished view of women's capabilities in this field*
+* "…it becomes critical to write women back into the history they were always part of, in action if not in memory."
