@@ -1,0 +1,31 @@
+= 2019-09-14: Weekly TeleIRC team meeting notes
+
+== Workflow
+
+* Typically work towards a major goal each semester
+** This semester's goal: Porting from NodeJS to Golang
+
+== Code structure
+
+* Main runner in `teleirc.js` calls different configurations and local libraries (e.g. IRC/Telegram listeners)
+** Creates, configures, runs IRC/Telegram bots
+* Two split sides: *Telegram* and *IRC* handlers
+** Largest component of each is messaging handler
+** General handlers: actions, errors, joining channe, kicking, messaging, NickServ, leaving channel
+* Some other helper functions for both sides of bridge
+
+== Deployments
+
+* Currently using Docker containers for deployment
+
+== Documentation
+
+* All documentation exists on https://docs.teleirc.com[docs.teleirc.com]
+
+== Meeting deliverables
+
+* We want to port to Go: How do we get there?
+* Project board for Go port specific to development
+* Deliverables:
+** Workflow development
+** New repository layout
