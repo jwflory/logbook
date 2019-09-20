@@ -1,0 +1,67 @@
+= Linux Distributions, presented by Neal Gompa (Datto Inc.)
+
+== RPM distributions
+
+* SUSE/openSUSE
+** Full, top-to-bottom integration testing approach
+** Use AppArmor vs. SELinux
+*** Novell bought company developing AppArmor; inherited it in the purchase
+*** AppArmor: Fired SUSE/Novell employees, many moved to Canonical and continued development there
+* Mageia
+** Development branch: Cauldron
+** Large, RPM distribution built mostly by a community (i.e. no major organization backers)
+** Flagship: KDE
+** Once-a-year releases
+** Awesome, friendly community!
+
+== dpkg distributions
+
+* Debian
+** Packaging system its own, dpkg
+** Development branch: Debian Sid
+** Also not backed by a single commercial entity
+** Emphaizes stability, i.e. older software
+** Major releases appx. 3 years
+** Security measures (SELinux) optional by default
+* Ubuntu
+** Packaging system: dpkg, increasingly snap
+** No development branch, but there are LTS releases
+** Canonical is driving force behind Ubuntu
+** Focuses heavily on desktop/server applications
+*** Heavy migrations to snaps
+** Security measures are off by default and weak by default
+** *Ubuntu Core*: Variant intended for appliances that only uses snaps
+
+== Other distributions
+
+* Arch
+** Packaging system its own, PKGBUILD
+** *`pacman`* manages packages
+** No development branch: full rolling release
+** Very useful documentation in Arch Wiki, even for non-Arch users
+** No instaler system: Requires manual effort to install and set up
+** Offers "ports"-like system to enable installing software from source reproducibly
+* Gentoo
+** Packaging system: ebuild / emerge builds
+** *Portage* manages packages
+** Entire distribution built from source code
+** Also offers "ports"
+** Offers capability to easily customize software to build time
+
+== Q&A
+
+* Q: *Do you think Ubuntu Core is the future of Ubuntu?*
+** A: Yes;
+   Snaps have a great development experience.
+   Canonical is pushing more for developers to package applications instead of distributions packaging software (thus, eliminating middle-man maintainership).
+   _Aside_: Poor attraction of corporate contributors to distributions even like Fedora.
+   How can we improve the developer relationship of people outside of distributions are included?
+   _Aside_: Fedora should state its intent more clearly as a distribution with one purpose to be upstream for RHEL
+
+== Notes
+
+* Look around and see what other people are doing
+* Do other people have similar problems?
+  What have other people tried?
+* Pure community distributions do not succeed because of capitalist society demands
+* Ubuntu/Windows standardized on good user / developer experiences influencing what technology people choose in the workplace
