@@ -1,0 +1,22 @@
+= MeB Summit 2019 notes
+
+This is a rough document with some notes I took during the https://wiki.musicbrainz.org/MusicBrainz_Summit/19[2019 MetaBrainz Summit] in Barcelona, 27 September to 29 September.
+Minutes and logs can be found in https://docs.google.com/document/d/1abk9f755ewoCBvuoxJPRgpFB0qXeICbNuzcqx6DBhcQ/edit?usp=sharing[this Google Doc].
+
+== 2019-09-28: Community engagement / outreach
+
+We split discussion into internal and external audiences.
+Then I realized I should have slept more last night or worked out a better way of facilitating this discussion.
+Sort of felt like I barged in with solutions before fully analyzing the ideas and perhaps the solutions I suggested are biased to me.
+Hopefully it was still useful for the 15 minutes I had to prepare to lead.
+
+The [I] represents internal focus and [E] represents external focus.
+
+* [I/E] Cash salaries, or working closer with community?
+** MeB is high bus factor, high elephant factor
+* [E] AB: Are there ways for people to interact/engage with AB project community without stressing engineering resources (i.e. time)?
+** Drive-by contributions
+* [E] Is the data scientist approach to attracting LB contributors the right audience? What about everyday listeners to diversify the data set?
+** [I/E] Diversity and inclusion perspective…
+* [I, some E] How to address bus factor?
+* [I] What does closer integration between pieces look like? Is there a roadmap?
