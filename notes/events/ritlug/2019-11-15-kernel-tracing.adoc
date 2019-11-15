@@ -1,0 +1,81 @@
+= Kernel Tracing, presented by Anthony Critelli (2019-11-15)
+
+Presented to the https://ritlug.com/[RIT Linux Users Group] on Friday, November 15th, 2019.
+Presented by https://acritelli.com/[Anthony Critelli] (https://github.com/acritelli[@acritelli]) from Datto Inc.
+
+== ftrace
+
+== eBPF
+
+* Grew out of BPF: Berkeley packet filters
+** Filtering language useful for running user code inside kernel
+* eBPF: "Virtual machine" inside the kernel
+
+== eBPF Compiler collection (BCC)
+
+* https://github.com/iovisor/bcc[github.com/iovisor/bcc]
+* Set of tools to make writing and interacting with eBPF easier
+** Write kernel instrumentation in C
+** Write front-ends in Python
+* Why?
+** You can do kernel eBPF kernel things in C, as expected
+** Then send data to userspace Python scripts
+** Much easier to work with data in Python
+*** Be considerate of how often things get sent to userspace (it is expensive)
+* BCC has some nice things to make life easier:
+** Functions: Writing to shared tracing pipe (same one used by `ftrace`)
+* Macros and functions for things like:
+** Maintaining hashes that can later be accessed by userspace
+** Building historgrams, also accessible in userspace later
+* Includes existing, pre-written tools
+** https://github.com/iovisor/bcc[Great examples] of how to write programs
+
+== BPF Trace
+
+* https://github.com/iovisor/bpftrace
+* Useful to mention, but a small tool (not useful for writing scripts/programs at scale)
+** ???
+
+http://brendangregg.com/ebpf.html[image::https://i.imgur.com/tU4ltWZ.png[eBPF front-ends]]
+
+== Where to start?
+
+* A suggested approach:
+.. Pick some arbitrary thing, like doing a DNS lookup with `nslookup`
+.. Observe it using `ftrace`
+.. See what kernel functions are called
+.. Pick more obvious ones (e.g. network, I/O, filesystem, etc.)
+..  See if you can write a BCC program to collect data (how many times the function is called, its arguments, etc.)
+* Suggested approach: Read the example code first, then work your way down
+
+== Live demo
+
+* For understanding `strace` calls, do not forget about `man` pages for understanding the syscalls!
+
+https://elixir.bootlin.com/linux/latest/source[image::https://i.imgur.com/t4WiAcR.png[Browseable tree of the Linux source code across multiple versions]]
+
+== Tips and tricks for learning
+
+* All these tools have lots of examples
+** eBPF ecosystem, in particulae, has tons of pre-written tools and examples
+* BCC developer tutorial to be helpful (check BCC docs folder)
+* While eBPF tools provide lots of features… batteries not included
+
+== Q&A
+
+=== What does filtering for SELinux contexts look like?
+
+No idea!
+Trace by SELinux function calls makes sense in a trace.
+
+[source,bash]
+----
+grep -i selinux available_filter_functions
+----
+
+=== From a devops/monitoring perspective, where might these tools be useful?
+
+=== Have you used `bpftrace`? Any suggestions on getting started?
+
+Trace things you're interested in.
+Use some of the https://github.com/iovisor/bpftrace/blob/master/tools/execsnoop_example.txt[sample tools] upstream provides.
