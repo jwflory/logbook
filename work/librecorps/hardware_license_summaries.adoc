@@ -1,0 +1,14 @@
+= Summary: Open hardware licenses
+
+2019-12-07
+
+
+* What do licenses cover?
+** Use, copying, modification, and distribution of hardware design documentation and the manufacture and distribution of products
+* CERN-OHL strives to be the GPL of hardware world
+** Principles:
+*** Anyone should be able to see the source (the design documentation in case of hardware)
+*** Study it
+*** Modify it
+*** Share it
+
