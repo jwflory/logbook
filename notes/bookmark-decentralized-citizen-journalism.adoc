@@ -1,0 +1,28 @@
+= Thought bookmark: Platform for decentralized citizen journalism with pseudonym identities
+
+[link=https://creativecommons.org/licenses/by-nc-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg[License: *CC BY-NC-SA 4.0*]
+
+Inspiration comes from https://youtu.be/sLo97Bu8Fo0[Meera Vijayann: Find your voice against gender violence].
+
+In her talk, Meera calls out society for not actively pursuing more ways where citizen voices are heard.
+She emphasizes the need to identify mediums that gives citizens a participatory role in journalism, instead of just following the media blindly.
+At the same time, there are real risks for people like minorities to express their true opinions online because of fear of repercussion.
+How could a citizen journalism platform empower people people to contribute to its platform in a communal, collaborative context?
+
+First, it's about building relationships.
+This is critical.
+But this thought bookmark won't detail that, mostly because this is something already intuitive to me.
+
+Second, a decentralized citizen journalism project that distinguishes itself on an ability to provide pseudonyms for its authors could be one approach.
+The emphasis of using anonymized pseudonyms is to give an author the ability to create a valid name as an author to establish a reputation with that pseudonym.footnote:[Of course, anyone who chooses to use their real name may also do so.]
+To support decentralization and help an author using a pseudonym build "brand", identities are synced across a network of distributed servers running the blogging software.footnote:[That said, don't discount the value of community management for a single-site instance.]
+This begins to provide a platform for citizens to share stories and contribute to building a new way of decentralized journaling.
+The decentralized nature of this project gives it long-term power, if successful.
+The issue of "fake news" and content verification also needs to be addressed in such a platform.
+If successful, this type of platform stands to give the greatest power to grassroots organizers to begin building engaged communities.
+
+This could also result in an increase in report of things like sexual harassment.
+When the Criminal Law (Amendment) Act of 2013 passed in Indian parliament, it resulted in a *6x increase in reporting harassment*.
+
+If I am a product manager someday and get to pitch my own ideas, this will be something I advocate for if it is still relevant.
