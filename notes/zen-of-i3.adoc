@@ -1,0 +1,46 @@
+= Zen of i3wm/Sway
+
+[link=https://creativecommons.org/licenses/by-nc-nd/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg[License: CC BY-NC-ND 4.0]
+
+This document explains my "Zen of i3wm/Sway".
+It is a mindset I use to maximize productivity, help me divide my work into smaller pieces, and most importantly, stay focused.
+At some point, I might turn this into more formal content like an Opensource.com article.
+For now, it is for me!
+
+
+== Workspaces
+
+Ever heard of "burndown charts" and "working down a priority queue"?
+I heard of them but admittedly do not fully comprehend them yet.
+Nonetheless, this approach could align well with workflows that prioritize time-tracking.
+
+=== Universal:
+
+==== 1. Workspace #1 is "personal" only.
+
+This is the "me" window.
+Any articles I want to read, things I want to work on my personal time, music lyric analysis… they all go here and stay here.
+It is also a good "catch-all" window if you don't know what to categorize something right away.
+
+==== 2. Workspace #2 is email only.
+
+I use a mail client desktop application.
+I assign it to start in Workspace #2 in my `.i3/config`.
+This isolates email to its own workspace, because email is its own mentally-demanding task.
+
+Keeping email in one place also makes it easy to turn off if you need to quiet notifications and focus.
+
+==== 3. Workspace #3 is for the DJ's.
+
+I normally listen to music while I use my operating system.
+Whatever music or audio source I am listening from, it goes here.
+This also makes it easy to memorize the keybind for changing to workspace as specific to music.
+
+=== If two monitors:
+
+==== 1.
+
+=== If one monitor:
+
+==== 1.
