@@ -1,0 +1,177 @@
+= Question Burst: Becoming better questioners
+
+[link=https://creativecommons.org/licenses/by-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[License: *CC BY-SA 4.0*]
+
+This document is a facilitator's guide I created to the **Question Burst** activity based off a workshop I attended in Chicago, Illinois, United States on 16 July 2019.
+I interwove language across sections of my notes to make this a reusable resource for me (and hopefully others) in the future.
+To goal of this document is to provide a concrete resource to help people become better questioners by understanding the power of reflection and inner dialogue.
+
+
+== Introduction
+
+The following is a transcript of hand-written notes I took.
+This might be useful to understand the purpose and context of this activity.
+
+* Being wrong, uncomfortable
+** Uncomfortable -> optimistic empowerment (a.k.a. savoring)
+** How to get from coping to savoring?
+* Savoring
+** Time: Uninterrupted
+** Reducing stress:
+*** Internal self/world
+*** Pushing back on negativity with optimism and skepticism
+** Managing complexity: Mutually positive and negative (finding a middle ground)
+** Attentional focus:
+*** Mindfulness and being present
+*** Staying focused on where we want to be
+** Self-monitoring: Be in the moment and find gratitude in the present
+** Social connection:
+*** Interactivity
+*** Being conscious of connections
+* Hold loose expectations of future: Life doesn't always go accordingly to plan; so be open-minded
+* Finding these life-savoring moments have an impact on our day-to-day lives
+** Externally: Nature, other people, art
+** Internally: Strengths, mindfulness
+
+Character:: not calculated, effortless, habitual
+
+* Challenges as opportunities to grow
+** Parallel between team sports and open source collaborators???
+** Context of environment == key
+* In summary:
+** *Embrace discomfort*
+** *Reframe problems into different questions*
+** *Give (or force) reflection time*
+
+
+== Part 1: Challenge Investigation
+
+_Originator_: Hal Gregersen, Executive Director of MIT Leadership Centre
+
+=== Overview
+
+* Challenge Headline
+* Emotional Scan #1
+* Your Questions
+* Emotional Scan #2
+
+=== Challenge Headline
+
+Identify your Challenge Headline.
+This could be a role, a project, a specific task, or a long-term goal.
+The Headline could be worded this way:
+
+____
+As an incoming Product Manager of Whiptail Industries, I want to build a collaborative and effective team culture.
+____
+
+=== Emotional Scan #1
+
+When you think about your Challenge Headline, how does it make you feel?
+Write a few words to summarize your emotions and how you feel.
+Are you calm or excited?
+Nervous or confident?
+Capable or overwhelmed?
+
+=== Your Questions
+
+Are you ready to play a game?
+
+==== Items needed
+
+* 4-5 people (possible with less, just not ideal)
+* Timer
+* Paper/writing utensil for each person
+
+==== How to play
+
+This is a team exercise, preferably in teams of four to five.
+There are a few roles to play on the team: the **Challenger** and the **Questioners**.
+One Questioner (with the Timer) will also be the **Timekeeper**.
+
+==== Instructions
+
+The following steps are repeated for each member of the group:
+
+. Designate one person to be the Challenger for this round; other group members are Questioners
+. _Timekeeper_: Set timer for *2 minutes*, start timer
+. _Challenger_: Share your Challenge Headline with the group and explain some context to your situation (e.g. why does this matter to you?) (no interruptions!!!)
+. When timer ends, Challenger has a brief moment to finish
+. _Timekeeper_: Set time for *4 minutes*, start timer
+. _Questioners_: Thinking of the Challenger's situation, what questions do you have?
+  One person at a time asks a question to the Challenger.
+. _Challenger__: **Without replying to any questions**, write down every question asked to you on paper
+. When timer ends, Challenger finishes writing final questions
+
+=== Emotional Scan #2
+
+Read through the questions you were asked.
+When you think about the Challenge Headline now, how does it make you feel?
+Make note of a few of your emotions and feelings (e.g. calm/excited, nervous/confident, etc.).
+
+
+== Part 2: Theme Groupings
+
+Group questions by common themes.
+Give each theme a name.
+Insert the grouped questions together in boxes.
+
+New pathway:: Identify the new pathway you will explore further
+
+
+== Part 3: Individual reflection
+
+=== Character traits of Positive Psychology
+
+==== Wisdom
+
+* Creativity
+* Curiosity
+* Love of learning
+* Open-mindedness
+* Perspective
+
+==== Courage
+
+* Bravery
+* Authenticity
+* Persistence
+* Test
+
+==== Humanity
+
+* Kindness
+* Love (capacity to love and be loved)
+* Social intelligence
+
+==== Justice
+
+* Fairness
+* Teamwork
+
+==== Temperance
+
+* Forgiveness
+* Humility
+* Prudence
+* Self-regulation
+
+==== Transcendence
+
+* Appreciation of beauty and excellence
+* Gratitude
+* Hope
+* Humor
+* Spirituality
+
+=== Instructions
+
+. Think about one or two great interactions with people or your surroundings, where you felt "flow" or savoring.
+. What character traits (above) did you express in those moments?
+  Write them out.
+. Rewrite the new pathway from earlier in a new section on the paper.
+. Attach 1-3 character strengths that will lead you further down your pathway.
+. Write a specific way in how you will apply each strength to your pathway.
+  Think about creating another moment of flow and savoring.
+. Repeat for any additional pathways.
