@@ -1,0 +1,17 @@
+= IGME-599 journal notes
+
+This document contains running notes of my IGME-599 independent study, replacing IGME-583 (Business and Legal Aspects of FOSS).
+
+
+== 2020-02-10
+
+=== 1x1: Instructor/Student meeting agenda
+
+. Revisiting scope of independent study
+.. Component 1: *Original research and presentation of findings*
+.. Component 2: *Development of resources to reduce barriers of adopting FOSS*
+. Backtracking/documenting completed research and presentation
+.. Moving existing research from Google Docs/handwritten notes to blog posts?
+. Resources for reducing FOSS adoption barriers
+.. Explore GrimoireLab/Cauldron.io for building interactive metrics dashboards
+.. *Deliverable*: Dashboard for FOSSRIT GitHub organization, possibly other platforms (e.g. Discourse, IRC/Telegram, etc.)
