@@ -1,0 +1,44 @@
+= Evaluating Open Source Hardware projects
+
+== Certification
+
+* https://www.oshwa.org/[Open Source Hardware Association]
+* https://certification.oshwa.org/process.html[Certification Process]:
+** Reference to best practices to ensure that your projects comply with the definition of Open Source Hardware
+** Possible to write certification into a contract
+* What does this mean?
+** Everything is openly licensed
+** Documented in a way where hardware people can take apart and understand the hardware itself
+* What does this not do?
+** That hardware actually works
+* Turn-around time for certification:
+** Initial review: 2 weeks
+** Minority of things: Additional questions for clarification could add time
+* *Recommendation*: Wait until you have a stable version to certify
+** Obligation to update certification when significant changes made
+** Easier to wait for a stable version so you don't have to keep re-certifying
+** Also free
+
+== Questions to ask
+
+* Where are repositories with schematic designs?
+** Get overview of what hardware is, design of hardware
+** Drill down to specifics after high-level overview, e.g. accelerometor, BCBs
+* What needs to be accessible?
+** Build materials
+** Schematics
+** Part lists with licenses
+
+== Open Know-How
+
+* Data structure being designed to present information
+* If OSHWA certification verifies if hardware is open, Open Know-How standardizes metadata about hardware
+** More machine-readable
+** "Here is a metadata standard, how you identify build materials, identify uses, etc."
+
+== For UNICEF IF
+
+* Begin certification process about ~10 months in
+* Asking for things up-front in calls, e.g. build material list, schematics
+** Reasonable amount of success leading up to actual certification
+* Videos as a deliverable for documentation
