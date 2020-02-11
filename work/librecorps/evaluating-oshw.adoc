@@ -1,6 +1,31 @@
 = Evaluating Open Source Hardware projects
 
-== Certification
+== Questions to ask
+
+* Where are repositories with schematic designs?
+** Get overview of what hardware is, design of hardware
+** Drill down to specifics after high-level overview, e.g. accelerometor, BCBs
+* What needs to be accessible?
+** Build materials
+** Schematics
+** Part lists with licenses
+* Best practices to verify reproducibility?
+* What to look for in early stages of open hardware development?
+** What are milestones?
+* Role of certification?
+* Examples of Open Know-How format?
+
+
+== Goals
+
+* Open hardware projects empower the user without creating dependencies
+* Decentralized way of producing things: Built on desire to share, make changes, adapt
+* Reproduce the function, not an artifact
+
+
+== Key components
+
+=== Certification
 
 * https://www.oshwa.org/[Open Source Hardware Association]
 * https://certification.oshwa.org/process.html[Certification Process]:
@@ -19,8 +44,7 @@
 ** Easier to wait for a stable version so you don't have to keep re-certifying
 ** Also free
 
-
-== Licensing
+=== Licensing
 
 * What do licenses cover?
 ** Use, copying, modification, and distribution of hardware design documentation and the manufacture and distribution of products
@@ -31,29 +55,88 @@
 *** Modify it
 *** Share it
 
+=== Reproducibility
 
-== Questions to ask
+* What _is_ reproducibility anyways?!
+** Want to copy hardware and it be exactly the same? Not exactly…
+** Regional focus might be more sustainable than universal reproducibility
+*** Closing gaps for context across different areas
+*** Teaching people _how_ to do the thing
+** Can this project be reproduced regionally with what is being made locally?
+* Buying parts (can they all be purchased from a bill of materials?)
+** Thinking about M.V.P. for what parts are selected
+** Choosing something easily available or more custom (3D-printed)
+** Consider production chain for quality control / reproducibility
 
-* Where are repositories with schematic designs?
-** Get overview of what hardware is, design of hardware
-** Drill down to specifics after high-level overview, e.g. accelerometor, BCBs
-* What needs to be accessible?
-** Build materials
-** Schematics
-** Part lists with licenses
+=== Documentation
 
+* *Three components*: what is open and what is reproducible
+.. Bill of materials (changes by location)
+.. International-specific context!
+.. Documenting assumptions
+*** _Understand how you are taking decision you are taking and why_: So next person does not make same mistakes
+*** _Documenting in accessible way_: So others can understand in more ways than text (videos, pictures, etc.)
 
-== Open Know-How
+==== Open Know-How
 
-* Data structure being designed to present information
-* If OSHWA certification verifies if hardware is open, Open Know-How standardizes metadata about hardware
+* *Open Know-How*: Data structure being designed to present information
+** If OSHWA certification verifies if hardware is open, Open Know-How standardizes metadata about hardware
 ** More machine-readable
-** "Here is a metadata standard, how you identify build materials, identify uses, etc."
+*** "Here is a metadata standard, how you identify build materials, identify uses, etc."
+* Open documentation builds understanding of skills needed to make good decisions with hardware
+** Good documentation explaining decision rationale is key for allowing others to make informed decisions about variations to hardware context
+** About tracking changes
 
 
 == For UNICEF IF
 
-* Begin certification process about ~10 months in
+* Begin certification process about 10 months in
 * Asking for things up-front in calls, e.g. build material list, schematics
 ** Reasonable amount of success leading up to actual certification
 * Videos as a deliverable for documentation
+* Q: How to convince folx that this is a positive thing for their project?
+  And not giving away the secret sauce of how the product is made?
+** Low commercial interest for open hardware…
+** Companies in the open HW/SW world are worth millions and still making profit, paying salaries, etc.
+** Open does not kill competitiveness
+** How much time, effort, resources goes into filing a patent, litigating if needed, development is wasted on other custom resources
+** Delays innovation; makes progress slower
+** Better in terms of building a community but also move/grow faster and more disruptive
+* Lack of business models?
+** Focusing on use cases and domain
+** Science: Power, effectiveness, and impact of open source is greater than closed, proprietary solution
+
+
+== References
+
+=== Qualitative interviews
+
+==== 2020-02-11: Open Hardware Leaders
+
+* Focuses:
+** Teaching project management skills
+** Make assumptions explicit and design tests for those assumptions
+*** Not just technical; assumptions about users and audience for public and community
+*** Weekly reflections on tests for assumptions
+* Licensing
+* Community sustainability
+** Participation guidelines
+** Finding a team
+** Building documentation in open and accessible way
+* 14 week training program, obviously not enough time for development of full project
+** 1st week: Scope participation in program
+** 2nd week: Personas for users and contributors
+* Turning early adopters into contributors
+** How they can contribute?
+** Lower access barriers
+** Directly involve them in development
+* How to grow community?
+** Present different models of governance for working in open
+** Onion model (core, outer layers)
+
+=== External links
+
+* https://2020.oshwa.org/[2020 Open Hardware Summit - March 13th 2020, NYU School of Law, New York]
+* https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000014[Haves and have nots must find a better way: The case for open scientific hardware]
+* https://www.sciencedirect.com/science/article/pii/S2212827118312095[Measuring Openness in Open Source Hardware with the Open-o-Meter]
+* https://foundation.mozilla.org/en/blog/open-hardware-leaders-open-leaders-x-program/[Open Hardware Leaders | an Open Leaders X program]
