@@ -4,7 +4,7 @@
 image::https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg[License: CC BY-NC-ND 4.0]
 
 This document explains my "Zen of i3wm/Sway".
-It is a mindset I use to maximize productivity, help me divide my work into smaller pieces, and most importantly, stay focused.
+It is an approach I use to maximize productivity, divide my work into smaller pieces, and most importantly, stay focused.
 At some point, I might turn this into more formal content like an Opensource.com article.
 For now, it is for me!
 
@@ -15,15 +15,15 @@ Ever heard of "burndown charts" and "working down a priority queue"?
 I heard of them but admittedly do not fully comprehend them yet.
 Nonetheless, this approach could align well with workflows that prioritize time-tracking.
 
-=== Universal:
+The workspace philosophy below explains how I use i3.
 
-==== 1. Workspace #1 is "personal" only.
+=== Workspace #1 is personal.
 
 This is the "me" window.
 Any articles I want to read, things I want to work on my personal time, music lyric analysis… they all go here and stay here.
-It is also a good "catch-all" window if you don't know what to categorize something right away.
+It is also a good "catch-all" window when I don't know what to categorize something as right away.
 
-==== 2. Workspace #2 is email only.
+=== Workspace #2 is email.
 
 I use a mail client desktop application.
 I assign it to start in Workspace #2 in my `.i3/config`.
@@ -31,16 +31,35 @@ This isolates email to its own workspace, because email is its own mentally-dema
 
 Keeping email in one place also makes it easy to turn off if you need to quiet notifications and focus.
 
-==== 3. Workspace #3 is for the DJ's.
+=== Workspace #3 is music.
 
 I normally listen to music while I use my operating system.
 Whatever music or audio source I am listening from, it goes here.
 This also makes it easy to memorize the keybind for changing to workspace as specific to music.
 
-=== If two monitors:
+=== Workspace #4 is chat.
 
-==== 1.
+My chat programs (IRC, Telegram, Matrix/Riot, video conference clients, etc.) go into this workspace.
+It keeps it easy to segment what can quickly become a distraction into its own workspace.
+It also makes it easy to isolate chat distractions, because of Workspace #4 isn't there, then I'm not going to get pinged and side-tracked when I need to focus.
 
-=== If one monitor:
+=== Workspaces #5-9 are temporary.
 
-==== 1.
+These workspaces are temporary and based on specific context.
+For example, Workspace #5 might be my academic work and Workspace #6 might be related to my dayjob.
+Organizing similar windows together makes it easier for me to regain focus and change contexts more easily.
+Just think about how much time we waste each day switching between different projects, tasks, or work.
+
+However, avoid working in these workspaces.
+These are like drawers of a filing cabinet.
+You don't write a report from inside a filing cabinet.
+You write it on your desk.
+
+=== Workspace #10 is active.
+
+Workspace #10 (or Super+0) is the active workspace.
+Whatever needs to be done from Workspaces #4-9 is moved to this workspace.
+This helps me focus and keep me grounded in what I need to accomplish.
+
+If I need to take a break from an incomplete task, I move what is in Workspace #10 back to one of Workspaces #4-9.
+When I start something new, it goes to Workspace #10.
