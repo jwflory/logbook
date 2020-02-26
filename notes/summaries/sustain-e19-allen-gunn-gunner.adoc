@@ -1,0 +1,63 @@
+= Sustain episode 19: "Recovering Software Engineer to a Believer in Open Source with Gunner"
+
+https://sustain.codefund.fm/19[Listen here]
+
+
+== General / uncategorized notes
+
+* Live events as a way to gauge impact from the NGO/non-profit success metric P.O.V.
+* Think about sustainability as governance, inclusion, and decision-making
+* Power dynamics cannot be denied in tech
+** Bring politics into the office, they are already there!
+
+
+== Cognitive dissonance and equitable knowledge transactions
+
+* Radically different way of approaching teaching and getting information and ideas across
+* Value of interpersonal communication
+* Right level of human openness to advance technical and intellectual openness
+
+
+== Strategies to bridge hard conversations / power dynamics:
+
+* "Free negotiation"
+** Asking in advance what people want to get out of a topic or event (understand expectations)
+** Begin negotiations to calibrate wild expectations to the same page, but also inviting self-awareness to power dynamics by those with power
+** Invoke collective and stated outcomes as leverage to give up some power
+* "Hallucination creation"
+** Higher state of readiness
+** Guarantees nothing, but doing best to focus down to essential set of topics best discussed in person
+** Set frame for discussions that is equitable and inclusive, instead of defensive or ad hoc
+
+
+== Self-obsolescence
+
+* Ultimate measure of success: If you don't see this, you are not part of success
+* Empowerment in others to build sustainability
+* What are you really going to leave behind at the end?
+* Net effect over ego effect
+
+
+== "Control takers" and "love bringers"
+
+* Control takers act out of ego, self-promotion, advance their goals and objectives, center their work
+* Love bringers ("collectivists" or "group allies") think of group outcomes, broader experience, empowering others to have a voice
+* Push power to people who in turn are trying to push power to others (what it means to give real-time equity in a conversation, in a dialogue)
+
+
+== "Give a shit" coefficient
+
+* Facilitative processes and inversion of power as ways to bring about change
+
+
+== "Technology last"
+
+* Focus on tech and content
+* Instead, think of sustainability and however you define it where you are
+* Things that get the least attention are most important
+
+
+== Community aspects
+
+* Open source projects that failed to model for success
+* Project took off, but hadn't thought about governance, goals, community identity
