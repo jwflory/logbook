@@ -1,6 +1,6 @@
-= "Fedora and Open Source to open your future in Tech" – _Justin Flory_
+= "Fedora and Open Source to open your future in Tech" – _Justin W. Flory_
 
-Talk notes and summary for a guest session I was invited to by https://twitter.com/_dev_nasir_[Nasir Hussain].
+Talk notes and summary for a guest session I was invited to by link:++https://twitter.com/_dev_nasir_++[Nasir Hussain].
 
 
 == Audience
