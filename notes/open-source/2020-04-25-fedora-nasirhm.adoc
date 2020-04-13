@@ -1,0 +1,55 @@
+= "Fedora and Open Source to open your future in Tech" – _Justin Flory_
+
+Talk notes and summary for a guest session I was invited to by https://twitter.com/_dev_nasir_[Nasir Hussain].
+
+
+== Audience
+
+* University students: "FOSS Newbies, Developers"
+* Set to live stream to Fedora Pakistan Facebook page
+** Asked to personalize to this audience
+
+
+== Selected topics
+
+. About the Fedora Project:
+  As a Linux distribution with different Editions and Objectives, and a global community of people who contribute
+. How to get involved with the Fedora Project:
+  Software, non-software, or both
+. How to use Linux and Fedora to launch or improve an I.T. career
+
+
+== Abstract
+
+Launching a new career in Tech/I.T. is challenging.
+There are many things to learn in this fast-paced environment.
+So, how can the Fedora Linux project and Open Source Software give you a boost?
+
+Justin W. Flory, a Fedora Project contributor and student from the U.S., explains how Open Source Software helps you get extra experience with international Tech communities while also giving back with your contributions.
+He covers three topics:
+
+. How Open Source Software helps you build a Tech career
+. How you can get knowledge by giving time
+. About the Fedora Project
+. How to get involved with the Fedora Project
+
+
+== Speaker intro
+
+**Short**:
+
+Justin W. Flory is a creative maker.
+He is best-known as an open source contributor based in the United States.
+Since he was 14, Justin has participated in numerous open source communities and led different initiatives to build sustainable software and communities.
+
+**Long**:
+
+Since 2018, he is a leading member of the LibreCorps program of the FOSS@MAGIC initiative at the Rochester Institute of Technology.
+He was the first, full-time co-op placement to work exclusively on community issues for UNICEF Office of Innovation.
+This was work he did in concert with UNICEF personnel and Red Hat Open Innovations Lab on UNICEF’s MagicBox effort.
+This was an engagement highlighted by Jim Whitehurst, former Red Hat CEO and President of IBM, during one of his Red Hat Summit keynote showcases at Red Hat Summit in 2018.
+Since then, Justin led half-day workshops for UNICEF’s Innovation Fund to introduce over 20 international start-up teams to the Open Source way.
+
+Furthermore, Justin is a contributor to the Fedora Project.
+In Fedora, he volunteered as team lead of the Community Operations team for four years and was a founding member of the Diversity and Inclusion Team.
+He represented Fedora internationally at events and conferences, including FOSDEM, DevConf CZ, All Things Open, OSCAL, and others.
