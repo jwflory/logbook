@@ -1,0 +1,52 @@
+= Tips on how to be a better Meeting Maintainer
+
+_Or, how to facilitate better virtually._
+
+*Flory, Justin W.*
+
+[link=https://creativecommons.org/licenses/by-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[License: CC BY-SA 4.0]
+
+
+== Prep
+
+* Default to 30 minute meetings.
+  Justify extensions when needed.
+* Share a clear agenda.
+  Set expectations for what will be discussed or not, and reassure time for open discussion after important topics are addressed.
+* Provide collaborative notes.
+  Either a Google Doc or Etherpad works.
+  This create multiple modes of contribution and backchannels.
+  It can be hard to speak up in an online call, so make sure there's a place to write and be seen.
+
+
+== In meeting
+
+* At beginning:
+** Remind presence of a Code of Conduct / set behavior expectations
+** Explicit mindfulness of speak/listen ratio (i.e. how much time everyone has to speak)
+* Silent note-taking
+** Ask an open-ended question and (or an icebreaker) and allocate time for people to "silently" type answers in the notes.
+** Then, facilitator verbalize answers and/or patterns they see.
+** Other participants can unmute and share verbally.
+** _Aside_: Also increases the value of note-taking as a habit and validate it as a contribution
+* Async interaction is *OK*
+** Pretend you have sticky notes.
+   Add a +1 to sections or comments you agree with.
+** Use comments, emojis, GIFs, etc.
+** Answer questions in-line when you can.
+
+=== Virtual breakout recipe
+
+* Requirements:
+** 2-3 discussion prompts
+** 10-15 minutes in group
+** 3-4 people per group
+
+Then, send broadcasts at regular intervals to make sure everyone has time to share (e.g. "5 minutes left, last person should be sharing now").
+After reconvening, add a _Shared insights_ section to the notes doc and leave a few minutes for silent reading and +1'ing
+
+
+== To learn
+
+* Explore what breakout rooms might look like outside of Zoom ecosystem
