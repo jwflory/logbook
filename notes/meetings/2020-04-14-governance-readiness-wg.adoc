@@ -1,0 +1,42 @@
+= SustainOSS: Governance Readiness Working Group (2020-04-14)
+
+
+== Agenda
+
+https://docs.google.com/document/d/1A2SsCeigKU-8JC2wJS8hXuxcB2tV5XnOj94JmxvPzfw/edit?usp=sharing[_See on Google Drive_].
+
+. Welcome
+. Short introductions
+.. What is your main motivation to be here?
+.. How do you think you can help?
+. Review of SustainOSS session
+. Goal of the Working Group
+. What to do next
+. Open questions
+
+
+== Pre-meeting notes
+
+* Interventions:
+  Could include shift from one governance model to another based on changing needs.
+* Methodology:
+  When do we start asking which questions?
+* Next steps:
+** +1: Find the common language (or what a first draft of elements might be)
+** +0: Before creating resources, have conversations in the open
+** +0: Important to cater challenges to people first instead of problems
+
+=== Questions to address
+
+* *Goal*:
+** What do you understand by “governance readiness”? (e.g., ability to be governed, things to change to enable a specific governance models, etc.)
+*** Defined blueprint of defined values and common assumptions for future planning of how a project is managed over time
+** What do you understand by “checklist”? does it refer to a methodology?
+*** Strategic and tactical thinking are two ways to approach.
+* *What to do next*:
+** What should be the most immediate target? (e.g., ways to represent governance models, catalog of models, etc.)
+*** Calibrate to everyone's reasons for showing up to generate traction
+** Should we focus on specific topics? (e.g., community, methodology, etc.)
+*** Could be on advice on growth management and how to adapt as your project changes in size or scope
+** When should we have the next meeting? monthly basis?
+*** +1 once monthly, could do twice a month if structure is there
