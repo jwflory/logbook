@@ -1,6 +1,5 @@
 = SustainOSS: Governance Readiness Working Group (2020-04-14)
 
-
 == Agenda
 
 https://docs.google.com/document/d/1A2SsCeigKU-8JC2wJS8hXuxcB2tV5XnOj94JmxvPzfw/edit?usp=sharing[_See on Google Drive_].
@@ -40,3 +39,31 @@ https://docs.google.com/document/d/1A2SsCeigKU-8JC2wJS8hXuxcB2tV5XnOj94JmxvPzfw/
 *** Could be on advice on growth management and how to adapt as your project changes in size or scope
 ** When should we have the next meeting? monthly basis?
 *** +1 once monthly, could do twice a month if structure is there
+
+
+== Meeting notes
+
+* Why are we here?
+** Governance as key part of sustainability
+** All of us echoed a common sentiment of wanting to spend time making implicit questions about governance more explicitly.
+* Classification:
+  Different dimensions focused on during workshop
+* Intervals / time periods:
+** Day-to-day
+** Barriers & Needs
+** Interventions
+* Mechanisms for change:
+** Decision-making mechanisms
+** Community
+** Methodology
+** Legal
+* Q: What does success look like from this classification?
+** How/where do we go from here?
+** What is a satisfactory accomplishment for this group?
+* Path forward:
+** Define a first draft of common elements of *good* and *bad* governance, based on https://docs.google.com/document/d/14xpOea_P8FZlcuppzqzwLqXyr4pgyddpBXXwlaHOH8c/edit?usp=sharing[sticky feedback]
+** Before we release a standard or common spec, have conversations in the open
+*** Information interviews with projects about what we're working on
+** Then, based on the standard/spec we draft, return to our unique networks with the shared, collaborative work
+* Questions & decision-making tools:
+** Example: A CoC is not a checkbox solution; needs to be designed within clear frameworks where a Code of Conduct is "plugged in"
