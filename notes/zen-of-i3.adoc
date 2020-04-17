@@ -1,7 +1,7 @@
 = Zen of i3wm/Sway
 
-[link=https://creativecommons.org/licenses/by-nc-nd/4.0/]
-image::https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg[License: CC BY-NC-ND 4.0]
+[link=https://creativecommons.org/licenses/by-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[License: CC BY-SA 4.0]
 
 This document explains my "Zen of i3wm/Sway".
 It is an approach I use to maximize productivity, divide my work into smaller pieces, and most importantly, stay focused.
