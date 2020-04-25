@@ -53,3 +53,48 @@ Since then, Justin led half-day workshops for UNICEF’s Innovation Fund to intr
 Furthermore, Justin is a contributor to the Fedora Project.
 In Fedora, he volunteered as team lead of the Community Operations team for four years and was a founding member of the Diversity and Inclusion Team.
 He represented Fedora internationally at events and conferences, including FOSDEM, DevConf CZ, All Things Open, OSCAL, and others.
+
+
+== Speaker notes
+
+=== Introduction
+
+* About me
+** Student at the Rochester Institute of Technology
+** Open source contributor for the last seven years, making my first source code commits at 14
+** Worked at Wall Street trading firms and international humanitarian organizations
+* Today, I'd like to talk about Free & Open Source Software and talk about how it can help you launch a new career or build an existing career in tech
+
+=== How Open Source Software helps you build a Tech career [10m]
+
+. Gain new skills
+. Make real contributions while you learn new things or build on what you already know
+. Meet new people from around the world
+
+=== How you can get knowledge by giving time [10m]
+
+. *Pay-offs on contributing*:
+  In it for the long run
+. *Volunteering in open source gets you different kinds of knowledge*:
+  Tech skills, people skills, collaboration skills
+.. Why are all these valuable skills?
+.. How can they get you hired?
+. *Interactive learning*:
+  Make real contributions, successes, and mistakes while you learn
+.. Public mistakes are scary, but they are opportunities!
+
+=== About the Fedora Project [10m]
+
+. About the Linux distribution and its relationship to Enterprise
+. Very brief history of Fedora
+. What does Fedora do today?
+  (Editions & Objectives)
+. What makes Fedora different from RHEL/CentOS?
+.. Community… duh! :wink:
+
+=== How to get involved with the Fedora Project [10m]
+
+. Gradually narrow and filter content down:
+.. https://docs.fedoraproject.org/en-US/project/orgchart/[High level organization] (orgchart, orgchart, orgchart!)
+.. https://whatcanidoforfedora.org/en/[WCIDFF]
+.. https://docs.fedoraproject.org/en-US/fedora-join/[Join SIG]
