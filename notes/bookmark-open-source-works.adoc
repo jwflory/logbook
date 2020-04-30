@@ -1,0 +1,29 @@
+= Bookmark: What is an Open Source Work?
+Justin W. Flory <contact@jwf.io>
+v0.0.1, 2020-04-30
+
+[link=https://creativecommons.org/licenses/by-nc-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg[License: *CC BY-NC-SA 4.0*]
+
+Playing on open source projects and communities.
+Instead of one or the other, pick-one-and-forget-the-other approach, maybe we need new vocabulary.
+
+An Open Source Work is a significant contribution of difficult-to-measure aspects like engineering time and design planning that contribute to successful Software Engineering Work.
+This can include, but is not required to include, maintaining a new Open Source Work.
+It can also apply to measured contributions to another existing Open Source Work.
+
+Some examples of an Open Source Work:
+
+. Creating and actively maintaining an original Code Repository with an OSI-Approved License
+. Creating and actively maintaining a public derivative work ("fork") under an OSI-Approved License, based on an original Code Repository also with an OSI-Approved License
+. Making non-trivial contributions and feature development to an existing public Code Repository also with an OSI-Approved License
+
+Why do we try to define something is always different?
+The level of openness for a given team depends on the unique contexts and circumstances that their work depends on.
+So instead of trying to require an arbitrary level of openness, let us first define a common standard of what is a positive contribution to the ecosystem.
+
+Any of the three ways above are different methods of making a positive contribution to the ecosystem.
+The first and sometimes the second are overrepresented in how we often perceive open source participation.
+But building a team is as much about being ready to play the role of a team player and adopt a spirit of a collaborator.
+
+Anyways, these are some thoughts I want to reflect on for some time first before pushing further ahead with this.
