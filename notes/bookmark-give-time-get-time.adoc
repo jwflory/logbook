@@ -1,0 +1,18 @@
+= Bookmark: Give Me Your Time to Get You My Time
+Justin W. Flory <contact@jwf.io>
+v0.0.1, 2020-04-30
+
+[link=https://creativecommons.org/licenses/by-nc-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg[License: *CC BY-NC-SA 4.0*]
+
+Weird idea, but sort of a way for someone who is really busy and overwhelmed to make time for conversations with people with less access and exposure to themselves.
+
+Say I am Some Important Person (S.I.P.).
+As a SIP, I might have my attention and focus spread across different areas that are key concerns and focuses for me individually.
+Sometimes for the SIP, it can be mentally and time-consuming work that leaves it easy to feel exhausted when confronted with the choice to escape your "social bubble" beyond working hours.
+
+So if you are someone who wants to connect or talk with the SIP but does not have great exposure or access to them, you could be sure they are serious about using your time first by getting some of their time as a trust-building exercise.
+The way I imagined this was requiring someone to contribute to an open data project like my Heuristics site, agree to license their contribution openly, and then that improvement being accepted as a way to validate their intention to make a connection.
+
+Not sure if this is selfish or not and it definitely doesn't apply to me at the point of life I am at.
+But it is one of those future leadership reflections, in the spirit of thinking like an astronaut.
