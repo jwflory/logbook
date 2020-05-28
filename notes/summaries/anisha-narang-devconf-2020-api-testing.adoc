@@ -4,6 +4,10 @@ My notes and takeaways from the talk.
 
 * _Speaker_: Anisha Narang
 * https://www.youtube.com/watch?v=J-tiHxxWykY[Video]
+* Helpful resources:
+** https://pypi.org/project/lemoncheesecake/[lemoncheesecake on PyPI]
+** https://docs.lemoncheesecake.io/en/latest/[lemoncheesecake documentation]
+** https://github.com/anarang/lemoncheesecake101[anarang/lemoncheesecake101]
 
 
 == Agenda
