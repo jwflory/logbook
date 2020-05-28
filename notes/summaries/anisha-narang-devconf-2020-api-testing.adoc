@@ -1,0 +1,111 @@
+= _Summary_: API testing 101's: Quick and Easy
+
+My notes and takeaways from the talk.
+
+* _Speaker_: Anisha Narang
+* https://www.youtube.com/watch?v=J-tiHxxWykY[Video]
+
+
+== Agenda
+
+[arabic]
+. Overview of REST API
+. Introduction to API testing
+. Overview of different API testing frameworks
+. Introduction to LCC framework (lemoncheesecake)
+. Understanding the matchers/assertions available
+. Generating awesome reports
+
+
+== Overview of REST API
+
+* REST == ``REpresentational State Transfer''
+** Literally: transferring a state of a common object from one place to another
+* How it is done:
+** JSON or XML format
+** _API endpoint_:
+   Where to go looking for the API
+** HTTP methods:
+*** `GET`: Retrieve info (read-only)
+*** `POST`: Push data that triggers a state change or effect on server
+**** _Example_: Submitting a form
+*** `PUT`: Push data to update a representation of something on a server
+**** _Example_: Editing a form
+*** `DELETE`: Get rid of a resource
+* _Example_: Travel site ticket portal interacting with different airline API’s to get prices and return them together in one interface
+
+
+== Introduction to API testing
+
+* API Testing: Software testing type that validates the API of any application
+** tl;dr:
+   Send calls to API and check they are right
+* Need two tools:
+** Drive/run API
+** Write test code to test API
+
+
+== Overview of different API testing frameworks
+
+* `curl`:
+  Simple tool to interact with HTTP requests/responses
+* *Postman*:
+  Google Chrome app with friendly GUI for interacting with HTTP APIs
+* *JMeter*:
+  Often used, although actually created for load testing
+* *Karate*:
+  Tool that works out of the box without prior programming knowledge required
+* *Pytest*:
+  Popular Python testing framework
+* This talk focuses on *lemoncheesecake*
+
+
+== Introduction to LCC framework (lemoncheesecake)
+
+* *lemoncheesecake*:
+  Functional test framework for Python
+** Makes reporting a first-class citizen
+** Provides fixtures, matches, etc.
+** Add metadata to your tests, create automatic reports
+* How to get started:
+  `pip install lemoncheesecake`
+* Writing test suite:
+** `lcc bootstrap test-project`
+** Creates:
+   `fixtures/`, `suites/`, `project.py`
+* Run test suite:
+  `lcc run`
+** Advanced information:
+   `lcc report`
+
+
+== Understanding the matchers/assertions available
+
+* Matchers:
+** Examples:
+   `equal_to()`, `is_true()`, `is_dict()`, `is_()`, `is_not()`, etc.
+* Matching operations:
+** `check_that(hint, actual, matcher, quiet=False)`:
+   Run matcher, log result, return matching result as boolean
+** `require_that(hint, actual, matcher, quiet=False)`:
+   Run matcher, log result, raise `AbortTest` if match fails
+** `assert_that(hint, actual, matcher, quiet=False)`:
+   Run matcher; if match fails and only if it fails, log result and raise `AbortTest`
+
+[source,python]
+----
+data = {"title": "Title 1", "uuid: "aaa11"}
+check_that("title_is", data, has_entry("title", equal_to("Title 1")))
+check_that("uuid_is", data, has_entry("uuid", equal_to("aaa11")))
+----
+
+* Logging
+** Uses built-in logging functions
+** `+log_debug(msg)+`, `+log_info(msg)+`, `+log_warn(msg)+`,
+`+log_error(msg)+`
+
+
+== Generating awesome reports
+
+[link=https://mirror.jwf.io/pub/images/tech/lemoncheesecake-generating-awesome-reports.png]
+image::https://mirror.jwf.io/pub/images/tech/lemoncheesecake-generating-awesome-reports.png[Screenshot from DevConf 2020 recording demonstrating the HTML reports created]
