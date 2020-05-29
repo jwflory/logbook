@@ -2,9 +2,11 @@
 
 My notes and takeaways from the talk.
 
-* _Speaker_: Anisha Narang
-* https://www.youtube.com/watch?v=J-tiHxxWykY[Video]
-* Helpful resources:
+* *Talk*:
+** _Speaker_: https://anishanarang.com/[Anisha Narang]
+** https://www.youtube.com/watch?v=J-tiHxxWykY[Video]
+** https://anarang.github.io/api101s_devconf2020/[Slides]
+* *Helpful resources*:
 ** https://pypi.org/project/lemoncheesecake/[lemoncheesecake on PyPI]
 ** https://docs.lemoncheesecake.io/en/latest/[lemoncheesecake documentation]
 ** https://github.com/anarang/lemoncheesecake101[anarang/lemoncheesecake101]
@@ -69,7 +71,7 @@ My notes and takeaways from the talk.
 * *lemoncheesecake*:
   Functional test framework for Python
 ** Makes reporting a first-class citizen
-** Provides fixtures, matches, etc.
+** Provides fixtures, matchers, etc.
 ** Add metadata to your tests, create automatic reports
 * How to get started:
   `pip install lemoncheesecake`
