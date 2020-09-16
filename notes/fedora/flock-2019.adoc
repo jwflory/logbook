@@ -1,0 +1,143 @@
+= Flock 2019 written notes
+
+Transcribed conference notes I took from different sessions at https://flocktofedora.org/[Fedora Flock] 2019 in Budapest, Hungary.
+
+
+[[rh-ibm-fedora]]
+== Red Hat + IBM + Fedora (Denise Dumas)
+
+* Affiliated entity (Red Hat underneath IBM
+* Acquisitions team @ IBM not involved with Red Hat deal
+** Discarded process for Red Hat buyout
+* Fedora's historical relationship with change (versus obsolescence)
+** Easier for IBM to get changes in by working within community to embrace relationship with change
+* IBM adopting same policy as Red Hat for contributing to open source on contributor's free time (Chris Ferris, IBM CTO for Open Tech)
+
+
+[[rhel-8]]
+== Where RHEL 8 diverged from Fedora and why (panel)
+
+* Faster RHEL is coming (three-year release cycles)
+* Package selection
+** RHEL mostly subset of Fedora, some different dependencies
+* Compatibility
+** DNF -> yum-4
+*** _Wrapper not enough_:
+    Changed flags from in-house legacy scripts by customers.
+*** More consistency among reliable automation
+** Revert default syslog
+** Introduction of platform-python
+*** Switchable system Python; customer choice
+* CI/gating (context of shorter release cycles)
+** "Test early, test often"
+** Gating like an airport gate:
+   review, recheck, regroup
+** Fast feedback for those who act on it and while you can act on it
+* Upstream First:
+  Bring test code upstream too
+** Red Hat developers bringing package tests into Fedora
+* Opportunities and objectives
+** More transparency:
+   Make development visible
+*** Thinking of where volunteers spend their time
+*** 2 years to get things in Fedora for RHEL 9
+*** Rings 20:
+    OS/application division
+**** More pulling from Fedora and pushing more things through Fedora
+**** Updating policy to find the middle ground
+
+
+[[mindshare]]
+== Mindshare Year in Review (Jared Smith)
+
+* Some initiatives like release parties going well
+* Need more metrics!
+* Marketing team focus
+** Biggest bottleneck: ??
+
+
+[[agile]]
+== Open Source Agile (Red Hat Community Platform Engineering Team)
+
+* Agile is hard mindset shift; mindshare is hard
+** Might not be prepared with workflows
+* Planes that "don't come back" from agile
+** Need to embrace failures
+** Sticking through it for long-term
+* Value statements align with agile values
+** Compatible with open source / Fedora
+* Collaborative teamwork is foundational
+** Identifying stakeholders:
+   communicate and involve them
+** Stakeholders express needs
+* Requirements Gate for CPE
+** Two-way street of participation for stakeholders and team
+* Values-driven planning:
+  Everyone wants something (Red Hat, CentOS, Fedora, CPE)
+** Have to maximize values for time
+** Priorities decided by consensus (stakeholders, team members)
+** Communication back is key from both sides
+* All about transparency - the community knows
+* Talk with other stakeholders (scratch our backs, scratch yours)
+* Understanding our remit
+* Defining mission:
+  lighthouse in the dark (confusion)
+** Must fit within mission; offers ability to protect self
+* Step back strategy:
+.. Own it all
+.. Host it
+.. Community owns it
+.. Looking to retire
+* Feedback as critical mechanism
+* Getting ready and done
+** Requirements, stakeholder, team prepped/ready
+** Stakeholder:
+   Sign-off criteria for completion
+
+* Fedora Badges?
+** Council approach? Maybe not
+** Collecting design team feedback into concrete priorities?
+
+
+[[communishift]]
+== Communishift (Kevin Fenzi)
+
+* History:
+  Fedora Infra Private Cloud
+* Communishift:
+  OpenShift 4.1
+** More self-service than previous offerings, less maintenance
+* Use cases:
+** Proof of concepts
+** Apps to get Fedora work done more efficiently
+** Apps supported by community
+** Way to learn about using OpenShift
+* What Infra does:
+** Platform, that's it
+** Outages / downtime as needed
+** Intended to be as self-service as possible
+* What YOU support:
+** Backups (`oc export`? `git` repo? need hosting)
+** Git / S.C.M. for changes
+** Display how people can get a hold of you
+* Get access
+** Ping nirik
+** Later:
+   FAS group
+** Later:
+   More widespread usage later on
+* Quotes:
+  5 projects, 10 pods, 5 pvcs
+** Flexible
+* "Future"
+** kubevirt / CNV:
+   Manage containers as VMs (`ssh` access)
+** Wider availability pending bugs
+** Existing cloud apps migrated this way
+* Heartbeats
+** Knowing an application is being used
+** How to measure project activity (OS alert manager)
+* Apps must be Fedora-related
+* https://fedoraproject.org/wiki/Infrastructure/Communishift
+* CPE hackfest @ 9am Sunday:
+  opportunity to get hands-on?
