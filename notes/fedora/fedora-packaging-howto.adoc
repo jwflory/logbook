@@ -1,0 +1,26 @@
+= Fedora packaging howto
+Justin W. Flory
+v1.0, 2019-12-10
+:toc:
+
+This is my personal guide and refresher for creating package updates in Fedora.
+I can't help but feel the current documentation makes the process out to be more tedious than needed, but that is not the purpose of this document.
+
+
+== fedpkg steps
+
+[source,sh]
+----
+fedpkg switch-branch master
+fedpkg new-sources <1>
+vim package.spec
+git commit -as
+fedpkg build
+fedpkg push
+fedpkg switch-branch fXX <2>
+git rebase master
+fedpkg build
+fedpkg update
+----
+<1> Needs further explanation.
+<2> Repeat this step and remaining steps as often as needed.
