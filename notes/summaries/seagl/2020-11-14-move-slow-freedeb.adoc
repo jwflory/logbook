@@ -1,4 +1,5 @@
 = Move Slow and Try Not to Break Each Other (Deb Nicholson)
+:toc:
 
 == Abstract
 
