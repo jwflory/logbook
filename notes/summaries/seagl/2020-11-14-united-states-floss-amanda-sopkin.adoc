@@ -1,0 +1,185 @@
+= The United States' History with Free Software and what we can do to improve the Future (Amanda Sopkin)
+:toc:
+
+== Abstract
+
+https://osem.seagl.org/conferences/seagl2020/program/proposals/794[Online at seagl.org].
+
+Properly caring for and protecting citizen data requires the use of Free Software, but few public institutions adhere to this standard.
+Incidents like the breakdown of technology at this year’s democratic party caucuses in Iowa have (rightfully) made many citizens more wary of any government technology when it comes to our electoral processes.
+Encouraging the development and use of Open Source software has the potential to make technology developers more accountable and technology users more secure.
+
+However, the government does not explicitly seek to convert software to free or see the need for doing so at most levels.
+In 2016, the United States instituted a source-code policy requiring 20% of code developed for or by an agency of the government to be released as Open Source software and be shared openly between agencies.
+This was a step in the right direction, but ultimately only a proposed target without actual deadlines or teeth behind it.
+In this talk I will examine the 2016 mandate and the impact it has had on the government.
+I will use this example to discuss the government’s history with proprietary technology and proponents of Open Source and Free Software within the government. I will focus on the history within the United States with notable examples of other countries provided.
+For example, I will discuss the Malaysian Public Sector Open Source Software Program and its success.
+I will finish by discussing hope for the future and what we can do to support the growth of Free Software in government.
+There are ways we can advocate for furthering the Open Source movement, by promoting Free Software at all levels of education and government and taking specific actions (call your senator!).
+
+
+== Agenda
+
+* Why this matters
+* Terminology and history
+* Roadblocks to adoption of FLOSS
+* International examples
+* What you can do to help
+
+
+== Live notes
+
+=== Why this matters
+
+* Why push for Free Software in government?
+** Some practical reasons, some moral reasons
+
+=== Terminology
+
+* Freeware, shareware, and Free Software
+* Add Open Source software along with Free Software
+** It gets sticky
+
+=== Roadblocks
+
+* *Why don't people trust Free Software?*
+** Security concerns
+** Uncertainty over maintenance
+** "Faceless" entity
+   (versus a larger entity like Microsoft)
+
+==== Security concerns
+
+* _Myths_:
+** FLOSS and proprietary software can be cleanly separated.
+** Closed source software is safer because it is closed.
+* _Reality_:
+** FLOSS components now present in 96% of commercial applications
+** Closed source software also has hidden vulnerabilities.
+
+==== Uncertainty over maintenance
+
+* An organization is 137% more likely to patch after disclore than before.
+** Open Source vendors patch more quickly than proprietary vendors
+* What is if it gets discontinued?
+** How exactly is that different from proprietary?
+** Open Source usually is able to recommend an alternative for you
+   (connecting with other users)
+
+=== Abridged FLOSS history
+
+* *1950s/1960s*:
+  Public domain software
+* *1955*:
+  SHARE users groups
+** Maintained library of Free Software they would share for various tasks
+* *1969*:
+  ARPANET makes sharing source code easier
+** Discontinuing the days of mailing your source code across the country
+* *1969 Jan. 17*:
+  United States vs IBM
+** Alleged that bundled software was anti-competitive
+* *1974*:
+  U.S. Commission on New Technological Uses of Copyrighted Works (C.O.N.T.U.)
+** Decided computer programs were subject to copyright
+* *1980s*:
+  Trend to only release machine executables
+  (not human-readable code)
+* *1983*:
+  GNU Project founded by Richard Stallman
+* *1985*:
+  Free Software Foundation created
+* *1991*:
+  Linux kernel released
+* *1998*:
+  Schism between Open Source and Free Software
+** Open Source Initiative is founded
+
+==== FLOSS in U.S. government
+
+* *1950s/1960s*:
+  Most, almost all, software freely distributed
+* *1970s*:
+  AT&T distributed Unix to government researchers free of charge, with lack of permission to modify
+* *1980s*:
+  AT&T revoked their goodwill, started charging for patches
+* *1990s*:
+  Push within government to pursue FLOSS
+** Apache and Linux gaining popular attention
+** Did not go far at the time
+* *2010s*:
+  "Default to open"
+** Open Source re-enters the public space
+** Far from reaching that… so far
+
+==== Roadblocks in U.S. government
+
+* From _Federal Source Code Study Series 2020_:
+** Caution over big changes
+** Risk aversion
+   (security, discontinuation)
+** Ethical concerns
+   (government scrutiny)
+
+==== Where are we today
+
+* *2016*:
+  U.S. policy, 20% of custom source code must be released as Open Source
+** 20% is low
+** Policy did not come with mechanisms/teeth for enforcement
+** Indication towards a future direction, but didn't go far because of lack of strategy/vision to implement
+* Code.gov hosted on GitHub
+** 30 particiapting federal agencies
+* _Federal Source Code Study Series_
+* Policy requirements under 2016 order for agencies:
+.. Update policies to be consistent with Federal Source Code order
+.. Complete code inventory
+.. Complete Open Source objective (20%)
+* Only three cabinet-level agencies are fully compliant:
+  GSA, NASA, and DOT.
+** Can government release software under an Open Source license if it was developed by contractors under government contract?
+*** Illuminates how U.S. gov't is approaching this
+
+=== FLOSS in education
+
+* Companies prey on students because they know they can hook them
+// it me lol
+* *Roadblocks*:
+** Training on Microsoft tools is subsidized
+** AD solutions are more cmplex
+** Fewer I.T. manager trained on Linux
+* Can we better train students on FLOSS?
+
+=== International look
+
+* Malayasia
+* Kerala, India
+** 2001:
+   Freedom First! Conference in Kerala
+*** State I.T. policy announces support for Free Software
+** 2009:
+*** Adopts Free Software in 3000+ schools
+*** Linux training for students and teachers
+*** And more
+* Others:
+** 2004:
+   Venezuela announced but did not act
+** 2005:
+   Perú, information autonomy
+** 2016:
+   Bulgaria requires all software to be open
+
+=== Way forward for Free Software
+
+* Free Software in Education
+** Building experience and know-how
+* Educate others on security risks of proprietary software
+** Make the space and have these conversations
+* Promote accountability at all levels of government
+
+==== How can you help right now?
+
+* Join the FSF
+* Contribute to the Free Software community
+* Trains others on FLOSS
